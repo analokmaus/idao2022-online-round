@@ -13,8 +13,15 @@ catboost_info/
 # Project
 input/
 data/
-results/
+results/**/submission.csv
+results/**/outoffolds.csv
+results/**/fold_*.csv
+results/**/*.log
+results/**/*.hdf5
+results/**/*.json
+results/*.csv
 requirements/
+track2/
 kaggle/
 logs/
 input/*

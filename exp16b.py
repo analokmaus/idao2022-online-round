@@ -26,9 +26,9 @@ def energy_within_threshold(prediction, target):
 
 
 def scheduler(epoch, lr):
-    if epoch < 100:
+    if epoch < 60:
         return LR
-    elif 100 <= epoch < 200:
+    elif 60 <= epoch < 120:
         return LR / 5
     else:
         return LR / 10
@@ -45,17 +45,17 @@ if __name__ == '__main__':
     os.environ["CUDA_VISIBLE_DEVICES"] = f"{args.gpu}"
 
     # %%
-    NAME = 'exp_15'
+    NAME = 'exp_16_b'
     SEED = 2022
     CV = 5
-    MAX_EPOCHS = 300
+    MAX_EPOCHS = 180
     BATCH_SIZE = 128
-    LR = 5e-4 
+    LR = 2e-3
 
     # Use pre-defined graphs
-    CUTOFF = 4
+    CUTOFF = 5
     GAUSS_CENTER = np.linspace(0, CUTOFF + 1, 100)
-    GAUSS_WIDTH = 0.5
+    GAUSS_WIDTH = 0.5 # kore
 
     EXTERNAL = None
 
@@ -93,18 +93,18 @@ if __name__ == '__main__':
                 centers=GAUSS_CENTER,
                 width=GAUSS_WIDTH,
                 loss="mae",
-                npass=1,
+                npass=2,
                 lr=LR,
                 metrics=energy_within_threshold, 
                 metrics_mode='max'
             )
-            model.load_weights('data/band_gap_regression.hdf5')
-            res = model.train_from_graphs(
-                train_fold['graph'] if EXTERNAL is None else \
-                    train_fold['graph'].tolist() + external['graph'].tolist(),
+            model.load_weights('data/efermi.hdf5')
+            res = model.train(
+                train_fold['structure'] if EXTERNAL is None else \
+                    train_fold['structure'].tolist() + external['structure'].tolist(),
                 train_fold['band_gap'] if EXTERNAL is None else \
                     train_fold['band_gap'].tolist() + external['band_gap'].tolist(),
-                validation_graphs=valid_fold['graph'],
+                validation_structures=valid_fold['structure'],
                 validation_targets=valid_fold['band_gap'],
                 epochs=MAX_EPOCHS,
                 batch_size=BATCH_SIZE,
@@ -126,7 +126,7 @@ if __name__ == '__main__':
 
             model.load_weights(str(OUTPUT_DIR/f'fold_{fold}.hdf5'))
             test_predictions[f'fold_{fold}'] = model.predict_structures(test_structures)
-            outoffolds[valid_idx] = model.predict_graphs(valid_fold['graph'].tolist())
+            outoffolds[valid_idx] = model.predict_structures(valid_fold['structure'].tolist())
 
         results = pd.concat(results, axis=1)
         results.columns = np.arange(CV)
@@ -142,14 +142,14 @@ if __name__ == '__main__':
                 centers=GAUSS_CENTER,
                 width=GAUSS_WIDTH,
                 loss="mae",
-                npass=1,
+                npass=2,
                 lr=LR,
                 metrics=energy_within_threshold, 
                 metrics_mode='max'
             )
             model.load_weights(str(OUTPUT_DIR/f'fold_{fold}.hdf5'))
             test_predictions[f'fold_{fold}'] = model.predict_structures(test_structures)
-            outoffolds[valid_idx] = model.predict_graphs(valid_fold['graph'].tolist())
+            outoffolds[valid_idx] = model.predict_structures(valid_fold['structure'].tolist())
 
     test_predictions['predictions'] = test_predictions[[ f'fold_{i}' for i in range(CV) ]].mean(1)
     test_predictions[['id', 'predictions']].to_csv(OUTPUT_DIR/'submission.csv', index=False)

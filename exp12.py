@@ -114,7 +114,6 @@ if __name__ == '__main__':
             )
 
             result_fold = pd.DataFrame(loadfn(OUTPUT_DIR/f'fold_{fold}.json'))
-            result_fold = pd.DataFrame(loadfn(OUTPUT_DIR/f'fold_{fold}.json'))
             result_fold['trn_loss'] = res.history.history['loss']
             result_fold['trn_energy_within_threshold'] = res.history.history['energy_within_threshold']
             result_fold[

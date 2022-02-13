@@ -1,0 +1,3000 @@
+2022-02-09 21:27:24.453934: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-02-09 21:27:24.454403: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-02-09 21:27:24.454574: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-02-09 21:27:24.454820: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-02-09 21:27:24.456748: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-02-09 21:27:24.456924: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-02-09 21:27:24.457080: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-02-09 21:27:26.577949: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-02-09 21:27:26.578165: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-02-09 21:27:26.578327: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-02-09 21:27:26.578482: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 20847 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:21:00.0, compute capability: 8.6
+2022-02-09 21:27:40.084970: I tensorflow/stream_executor/cuda/cuda_blas.cc:1774] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+/home/hiroshi_yoshihara/.pyenv/versions/anaconda3-2020.02/envs/idao2022/lib/python3.8/site-packages/keras/optimizer_v2/adam.py:105: UserWarning: The `lr` argument is deprecated, use `learning_rate` instead.
+  super(Adam, self).__init__(name, **kwargs)
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.07071 mae: 0.49852
+INFO:megnet_models.callbacks:best energy_within_threshold: -inf -> 0.07071
+Epoch 1/300
+19/19 - 55s - loss: 0.4741 - energy_within_threshold: 0.0086 - lr: 5.0000e-04 - 55s/epoch - 3s/step
+/home/hiroshi_yoshihara/.pyenv/versions/anaconda3-2020.02/envs/idao2022/lib/python3.8/site-packages/keras/engine/functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.00000 mae: 0.44879
+Epoch 2/300
+19/19 - 41s - loss: 0.4523 - energy_within_threshold: 0.0156 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.00000 mae: 0.42802
+Epoch 3/300
+19/19 - 41s - loss: 0.4396 - energy_within_threshold: 0.0090 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.00842 mae: 0.45030
+Epoch 4/300
+19/19 - 41s - loss: 0.4514 - energy_within_threshold: 0.0164 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.07239 mae: 0.18074
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.07071 -> 0.07239
+Epoch 5/300
+19/19 - 41s - loss: 0.3899 - energy_within_threshold: 0.0263 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17508 mae: 0.12993
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.07239 -> 0.17508
+Epoch 6/300
+19/19 - 41s - loss: 0.1646 - energy_within_threshold: 0.1460 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.26263 mae: 0.11149
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.17508 -> 0.26263
+Epoch 7/300
+19/19 - 41s - loss: 0.1261 - energy_within_threshold: 0.2435 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.46633 mae: 0.10650
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.26263 -> 0.46633
+Epoch 8/300
+19/19 - 41s - loss: 0.1187 - energy_within_threshold: 0.3192 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.35017 mae: 0.10360
+Epoch 9/300
+19/19 - 41s - loss: 0.1168 - energy_within_threshold: 0.3955 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17845 mae: 0.10609
+Epoch 10/300
+19/19 - 41s - loss: 0.1165 - energy_within_threshold: 0.3500 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.45455 mae: 0.10328
+Epoch 11/300
+19/19 - 41s - loss: 0.1169 - energy_within_threshold: 0.3401 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.32997 mae: 0.10211
+Epoch 12/300
+19/19 - 41s - loss: 0.1153 - energy_within_threshold: 0.4165 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.46801 mae: 0.10222
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.46633 -> 0.46801
+Epoch 13/300
+19/19 - 41s - loss: 0.1144 - energy_within_threshold: 0.4118 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.48822 mae: 0.10282
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.46801 -> 0.48822
+Epoch 14/300
+19/19 - 42s - loss: 0.1147 - energy_within_threshold: 0.3814 - lr: 5.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.43266 mae: 0.10009
+Epoch 15/300
+19/19 - 41s - loss: 0.1144 - energy_within_threshold: 0.4034 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.51515 mae: 0.09736
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.48822 -> 0.51515
+Epoch 16/300
+19/19 - 41s - loss: 0.1107 - energy_within_threshold: 0.4392 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25084 mae: 0.10643
+Epoch 17/300
+19/19 - 41s - loss: 0.1075 - energy_within_threshold: 0.4092 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.37710 mae: 0.09788
+Epoch 18/300
+19/19 - 41s - loss: 0.1091 - energy_within_threshold: 0.2912 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.44276 mae: 0.09285
+Epoch 19/300
+19/19 - 41s - loss: 0.1046 - energy_within_threshold: 0.3095 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.26094 mae: 0.09188
+Epoch 20/300
+19/19 - 41s - loss: 0.1023 - energy_within_threshold: 0.2734 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.27778 mae: 0.08984
+Epoch 21/300
+19/19 - 41s - loss: 0.0988 - energy_within_threshold: 0.2998 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17677 mae: 0.07540
+Epoch 22/300
+19/19 - 41s - loss: 0.0911 - energy_within_threshold: 0.2659 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20539 mae: 0.10584
+Epoch 23/300
+19/19 - 41s - loss: 0.0962 - energy_within_threshold: 0.2658 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.37542 mae: 0.08480
+Epoch 24/300
+19/19 - 41s - loss: 0.1045 - energy_within_threshold: 0.1943 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.02694 mae: 0.11436
+Epoch 25/300
+19/19 - 41s - loss: 0.0804 - energy_within_threshold: 0.2682 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.19529 mae: 0.10026
+Epoch 26/300
+19/19 - 41s - loss: 0.1079 - energy_within_threshold: 0.2949 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.26936 mae: 0.10739
+Epoch 27/300
+19/19 - 41s - loss: 0.1090 - energy_within_threshold: 0.3600 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.23569 mae: 0.09278
+Epoch 28/300
+19/19 - 41s - loss: 0.1062 - energy_within_threshold: 0.2531 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.19697 mae: 0.09368
+Epoch 29/300
+19/19 - 41s - loss: 0.1062 - energy_within_threshold: 0.2323 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.23232 mae: 0.08782
+Epoch 30/300
+19/19 - 41s - loss: 0.0992 - energy_within_threshold: 0.2673 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22559 mae: 0.08151
+Epoch 31/300
+19/19 - 41s - loss: 0.0955 - energy_within_threshold: 0.2764 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20202 mae: 0.06019
+Epoch 32/300
+19/19 - 41s - loss: 0.0798 - energy_within_threshold: 0.2590 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18855 mae: 0.13583
+Epoch 33/300
+19/19 - 41s - loss: 0.1150 - energy_within_threshold: 0.2698 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.38215 mae: 0.10689
+Epoch 34/300
+19/19 - 41s - loss: 0.1282 - energy_within_threshold: 0.2820 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.12795 mae: 0.10564
+Epoch 35/300
+19/19 - 41s - loss: 0.1189 - energy_within_threshold: 0.2855 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.39226 mae: 0.09679
+Epoch 36/300
+19/19 - 41s - loss: 0.1124 - energy_within_threshold: 0.3616 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.26094 mae: 0.08063
+Epoch 37/300
+19/19 - 41s - loss: 0.1029 - energy_within_threshold: 0.3043 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.15152 mae: 0.06702
+Epoch 38/300
+19/19 - 41s - loss: 0.0954 - energy_within_threshold: 0.2216 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.28788 mae: 0.11273
+Epoch 39/300
+19/19 - 41s - loss: 0.1190 - energy_within_threshold: 0.2343 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17172 mae: 0.10833
+Epoch 40/300
+19/19 - 41s - loss: 0.1212 - energy_within_threshold: 0.2619 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.23906 mae: 0.09996
+Epoch 41/300
+19/19 - 42s - loss: 0.1128 - energy_within_threshold: 0.3657 - lr: 5.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.45118 mae: 0.09064
+Epoch 42/300
+19/19 - 41s - loss: 0.1067 - energy_within_threshold: 0.3091 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18350 mae: 0.08068
+Epoch 43/300
+19/19 - 41s - loss: 0.0959 - energy_within_threshold: 0.3753 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.23064 mae: 0.05367
+Epoch 44/300
+19/19 - 41s - loss: 0.0718 - energy_within_threshold: 0.2459 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34512 mae: 0.05345
+Epoch 45/300
+19/19 - 41s - loss: 0.0665 - energy_within_threshold: 0.2644 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.35522 mae: 0.06608
+Epoch 46/300
+19/19 - 41s - loss: 0.0742 - energy_within_threshold: 0.2697 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20034 mae: 0.08179
+Epoch 47/300
+19/19 - 41s - loss: 0.0713 - energy_within_threshold: 0.2527 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.45791 mae: 0.04207
+Epoch 48/300
+19/19 - 41s - loss: 0.0635 - energy_within_threshold: 0.2896 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.29798 mae: 0.03496
+Epoch 49/300
+19/19 - 41s - loss: 0.0343 - energy_within_threshold: 0.4287 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.41919 mae: 0.03261
+Epoch 50/300
+19/19 - 41s - loss: 0.0347 - energy_within_threshold: 0.3946 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.27104 mae: 0.04528
+Epoch 51/300
+19/19 - 41s - loss: 0.0439 - energy_within_threshold: 0.3776 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.30303 mae: 0.03520
+Epoch 52/300
+19/19 - 41s - loss: 0.0322 - energy_within_threshold: 0.4666 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.58923 mae: 0.02800
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.51515 -> 0.58923
+Epoch 53/300
+19/19 - 41s - loss: 0.0282 - energy_within_threshold: 0.5248 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.60269 mae: 0.02762
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.58923 -> 0.60269
+Epoch 54/300
+19/19 - 41s - loss: 0.0259 - energy_within_threshold: 0.6201 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64478 mae: 0.02824
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.60269 -> 0.64478
+Epoch 55/300
+19/19 - 41s - loss: 0.0282 - energy_within_threshold: 0.5734 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61448 mae: 0.02656
+Epoch 56/300
+19/19 - 41s - loss: 0.0263 - energy_within_threshold: 0.6350 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.60269 mae: 0.02813
+Epoch 57/300
+19/19 - 41s - loss: 0.0245 - energy_within_threshold: 0.6220 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61279 mae: 0.02616
+Epoch 58/300
+19/19 - 41s - loss: 0.0247 - energy_within_threshold: 0.6372 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63805 mae: 0.02561
+Epoch 59/300
+19/19 - 41s - loss: 0.0226 - energy_within_threshold: 0.6554 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61448 mae: 0.02734
+Epoch 60/300
+19/19 - 41s - loss: 0.0235 - energy_within_threshold: 0.6474 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.59259 mae: 0.02879
+Epoch 61/300
+19/19 - 41s - loss: 0.0240 - energy_within_threshold: 0.6436 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62626 mae: 0.02649
+Epoch 62/300
+19/19 - 41s - loss: 0.0236 - energy_within_threshold: 0.6525 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64141 mae: 0.02578
+Epoch 63/300
+19/19 - 41s - loss: 0.0231 - energy_within_threshold: 0.6617 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63805 mae: 0.02616
+Epoch 64/300
+19/19 - 41s - loss: 0.0226 - energy_within_threshold: 0.6718 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64815 mae: 0.02536
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.64478 -> 0.64815
+Epoch 65/300
+19/19 - 41s - loss: 0.0237 - energy_within_threshold: 0.6602 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61953 mae: 0.02450
+Epoch 66/300
+19/19 - 41s - loss: 0.0233 - energy_within_threshold: 0.6609 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64310 mae: 0.02460
+Epoch 67/300
+19/19 - 41s - loss: 0.0220 - energy_within_threshold: 0.6637 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66162 mae: 0.02507
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.64815 -> 0.66162
+Epoch 68/300
+19/19 - 41s - loss: 0.0228 - energy_within_threshold: 0.6746 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62121 mae: 0.02462
+Epoch 69/300
+19/19 - 41s - loss: 0.0239 - energy_within_threshold: 0.6576 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65993 mae: 0.02477
+Epoch 70/300
+19/19 - 41s - loss: 0.0222 - energy_within_threshold: 0.6699 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65825 mae: 0.02502
+Epoch 71/300
+19/19 - 41s - loss: 0.0216 - energy_within_threshold: 0.6757 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64141 mae: 0.02424
+Epoch 72/300
+19/19 - 41s - loss: 0.0227 - energy_within_threshold: 0.6726 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61953 mae: 0.02452
+Epoch 73/300
+19/19 - 41s - loss: 0.0223 - energy_within_threshold: 0.6800 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65320 mae: 0.02423
+Epoch 74/300
+19/19 - 41s - loss: 0.0223 - energy_within_threshold: 0.6745 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65825 mae: 0.02448
+Epoch 75/300
+19/19 - 41s - loss: 0.0218 - energy_within_threshold: 0.6618 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.57071 mae: 0.02825
+Epoch 76/300
+19/19 - 41s - loss: 0.0223 - energy_within_threshold: 0.6808 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61111 mae: 0.02511
+Epoch 77/300
+19/19 - 41s - loss: 0.0231 - energy_within_threshold: 0.6512 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67845 mae: 0.02535
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.66162 -> 0.67845
+Epoch 78/300
+19/19 - 41s - loss: 0.0222 - energy_within_threshold: 0.6754 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64310 mae: 0.02517
+Epoch 79/300
+19/19 - 41s - loss: 0.0233 - energy_within_threshold: 0.6711 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62121 mae: 0.02550
+Epoch 80/300
+19/19 - 41s - loss: 0.0226 - energy_within_threshold: 0.6683 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67340 mae: 0.02510
+Epoch 81/300
+19/19 - 41s - loss: 0.0223 - energy_within_threshold: 0.6614 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.58249 mae: 0.02525
+Epoch 82/300
+19/19 - 41s - loss: 0.0223 - energy_within_threshold: 0.6601 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63973 mae: 0.02448
+Epoch 83/300
+19/19 - 41s - loss: 0.0225 - energy_within_threshold: 0.6751 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61279 mae: 0.02473
+Epoch 84/300
+19/19 - 41s - loss: 0.0220 - energy_within_threshold: 0.6758 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.58586 mae: 0.02878
+Epoch 85/300
+19/19 - 41s - loss: 0.0230 - energy_within_threshold: 0.6776 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61616 mae: 0.02428
+Epoch 86/300
+19/19 - 41s - loss: 0.0226 - energy_within_threshold: 0.6684 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62963 mae: 0.02411
+Epoch 87/300
+19/19 - 41s - loss: 0.0222 - energy_within_threshold: 0.6615 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68013 mae: 0.02463
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.67845 -> 0.68013
+Epoch 88/300
+19/19 - 41s - loss: 0.0217 - energy_within_threshold: 0.6705 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64815 mae: 0.02454
+Epoch 89/300
+19/19 - 41s - loss: 0.0218 - energy_within_threshold: 0.6808 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67677 mae: 0.02510
+Epoch 90/300
+19/19 - 41s - loss: 0.0222 - energy_within_threshold: 0.6795 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63468 mae: 0.02722
+Epoch 91/300
+19/19 - 41s - loss: 0.0227 - energy_within_threshold: 0.6911 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66667 mae: 0.02367
+Epoch 92/300
+19/19 - 41s - loss: 0.0224 - energy_within_threshold: 0.6664 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61448 mae: 0.02622
+Epoch 93/300
+19/19 - 41s - loss: 0.0217 - energy_within_threshold: 0.6943 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68350 mae: 0.02420
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.68013 -> 0.68350
+Epoch 94/300
+19/19 - 41s - loss: 0.0219 - energy_within_threshold: 0.6976 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64646 mae: 0.02731
+Epoch 95/300
+19/19 - 41s - loss: 0.0217 - energy_within_threshold: 0.6823 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63973 mae: 0.02487
+Epoch 96/300
+19/19 - 41s - loss: 0.0222 - energy_within_threshold: 0.6680 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72054 mae: 0.02389
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.68350 -> 0.72054
+Epoch 97/300
+19/19 - 41s - loss: 0.0219 - energy_within_threshold: 0.6906 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66330 mae: 0.02326
+Epoch 98/300
+19/19 - 41s - loss: 0.0215 - energy_within_threshold: 0.6901 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63636 mae: 0.02619
+Epoch 99/300
+19/19 - 41s - loss: 0.0227 - energy_within_threshold: 0.6644 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65657 mae: 0.02357
+Epoch 100/300
+19/19 - 41s - loss: 0.0224 - energy_within_threshold: 0.6836 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65657 mae: 0.02323
+Epoch 101/300
+19/19 - 41s - loss: 0.0208 - energy_within_threshold: 0.6830 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64478 mae: 0.02317
+Epoch 102/300
+19/19 - 41s - loss: 0.0207 - energy_within_threshold: 0.6886 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69529 mae: 0.02348
+Epoch 103/300
+19/19 - 41s - loss: 0.0205 - energy_within_threshold: 0.6939 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70202 mae: 0.02365
+Epoch 104/300
+19/19 - 41s - loss: 0.0209 - energy_within_threshold: 0.7094 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64141 mae: 0.02294
+Epoch 105/300
+19/19 - 41s - loss: 0.0208 - energy_within_threshold: 0.7071 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66498 mae: 0.02295
+Epoch 106/300
+19/19 - 41s - loss: 0.0205 - energy_within_threshold: 0.6838 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68350 mae: 0.02317
+Epoch 107/300
+19/19 - 41s - loss: 0.0202 - energy_within_threshold: 0.7100 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66498 mae: 0.02296
+Epoch 108/300
+19/19 - 41s - loss: 0.0205 - energy_within_threshold: 0.6988 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64141 mae: 0.02308
+Epoch 109/300
+19/19 - 41s - loss: 0.0204 - energy_within_threshold: 0.7055 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66835 mae: 0.02293
+Epoch 110/300
+19/19 - 41s - loss: 0.0204 - energy_within_threshold: 0.7076 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67340 mae: 0.02288
+Epoch 111/300
+19/19 - 41s - loss: 0.0205 - energy_within_threshold: 0.7121 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67845 mae: 0.02293
+Epoch 112/300
+19/19 - 41s - loss: 0.0203 - energy_within_threshold: 0.7053 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69529 mae: 0.02290
+Epoch 113/300
+19/19 - 41s - loss: 0.0202 - energy_within_threshold: 0.7139 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67677 mae: 0.02272
+Epoch 114/300
+19/19 - 41s - loss: 0.0208 - energy_within_threshold: 0.7154 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69024 mae: 0.02301
+Epoch 115/300
+19/19 - 41s - loss: 0.0204 - energy_within_threshold: 0.7053 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71044 mae: 0.02298
+Epoch 116/300
+19/19 - 41s - loss: 0.0202 - energy_within_threshold: 0.7126 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68519 mae: 0.02271
+Epoch 117/300
+19/19 - 41s - loss: 0.0204 - energy_within_threshold: 0.7186 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68519 mae: 0.02278
+Epoch 118/300
+19/19 - 41s - loss: 0.0203 - energy_within_threshold: 0.7319 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70034 mae: 0.02294
+Epoch 119/300
+19/19 - 41s - loss: 0.0204 - energy_within_threshold: 0.7126 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63300 mae: 0.02300
+Epoch 120/300
+19/19 - 41s - loss: 0.0210 - energy_within_threshold: 0.7168 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70370 mae: 0.02267
+Epoch 121/300
+19/19 - 42s - loss: 0.0202 - energy_within_threshold: 0.7206 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68350 mae: 0.02263
+Epoch 122/300
+19/19 - 41s - loss: 0.0201 - energy_within_threshold: 0.7256 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67340 mae: 0.02259
+Epoch 123/300
+19/19 - 41s - loss: 0.0202 - energy_within_threshold: 0.7199 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70707 mae: 0.02265
+Epoch 124/300
+19/19 - 41s - loss: 0.0202 - energy_within_threshold: 0.7169 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69360 mae: 0.02263
+Epoch 125/300
+19/19 - 41s - loss: 0.0204 - energy_within_threshold: 0.7257 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67172 mae: 0.02242
+Epoch 126/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7289 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70539 mae: 0.02278
+Epoch 127/300
+19/19 - 41s - loss: 0.0203 - energy_within_threshold: 0.7150 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71549 mae: 0.02252
+Epoch 128/300
+19/19 - 41s - loss: 0.0201 - energy_within_threshold: 0.7254 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72222 mae: 0.02296
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.72054 -> 0.72222
+Epoch 129/300
+19/19 - 41s - loss: 0.0204 - energy_within_threshold: 0.7160 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70370 mae: 0.02255
+Epoch 130/300
+19/19 - 41s - loss: 0.0202 - energy_within_threshold: 0.7395 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71044 mae: 0.02269
+Epoch 131/300
+19/19 - 41s - loss: 0.0203 - energy_within_threshold: 0.7095 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71044 mae: 0.02234
+Epoch 132/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7258 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69024 mae: 0.02233
+Epoch 133/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7304 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66330 mae: 0.02240
+Epoch 134/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7264 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70202 mae: 0.02234
+Epoch 135/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7269 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73064 mae: 0.02293
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.72222 -> 0.73064
+Epoch 136/300
+19/19 - 41s - loss: 0.0199 - energy_within_threshold: 0.7249 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66330 mae: 0.02242
+Epoch 137/300
+19/19 - 41s - loss: 0.0204 - energy_within_threshold: 0.7247 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70707 mae: 0.02227
+Epoch 138/300
+19/19 - 41s - loss: 0.0199 - energy_within_threshold: 0.7242 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69865 mae: 0.02226
+Epoch 139/300
+19/19 - 41s - loss: 0.0201 - energy_within_threshold: 0.7251 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67508 mae: 0.02251
+Epoch 140/300
+19/19 - 41s - loss: 0.0198 - energy_within_threshold: 0.7313 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70539 mae: 0.02268
+Epoch 141/300
+19/19 - 41s - loss: 0.0201 - energy_within_threshold: 0.7228 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73064 mae: 0.02300
+Epoch 142/300
+19/19 - 41s - loss: 0.0202 - energy_within_threshold: 0.7195 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68855 mae: 0.02235
+Epoch 143/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7240 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67845 mae: 0.02244
+Epoch 144/300
+19/19 - 41s - loss: 0.0199 - energy_within_threshold: 0.7300 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68182 mae: 0.02225
+Epoch 145/300
+19/19 - 41s - loss: 0.0203 - energy_within_threshold: 0.7279 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73064 mae: 0.02269
+Epoch 146/300
+19/19 - 41s - loss: 0.0201 - energy_within_threshold: 0.7318 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64815 mae: 0.02273
+Epoch 147/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7305 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69360 mae: 0.02254
+Epoch 148/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7223 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71380 mae: 0.02240
+Epoch 149/300
+19/19 - 41s - loss: 0.0199 - energy_within_threshold: 0.7376 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71044 mae: 0.02296
+Epoch 150/300
+19/19 - 41s - loss: 0.0197 - energy_within_threshold: 0.7151 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68013 mae: 0.02260
+Epoch 151/300
+19/19 - 42s - loss: 0.0205 - energy_within_threshold: 0.7231 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69529 mae: 0.02289
+Epoch 152/300
+19/19 - 41s - loss: 0.0202 - energy_within_threshold: 0.6998 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68687 mae: 0.02236
+Epoch 153/300
+19/19 - 42s - loss: 0.0203 - energy_within_threshold: 0.7159 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70034 mae: 0.02222
+Epoch 154/300
+19/19 - 42s - loss: 0.0202 - energy_within_threshold: 0.7204 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73064 mae: 0.02220
+Epoch 155/300
+19/19 - 42s - loss: 0.0200 - energy_within_threshold: 0.7297 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70875 mae: 0.02212
+Epoch 156/300
+19/19 - 42s - loss: 0.0200 - energy_within_threshold: 0.7263 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72391 mae: 0.02241
+Epoch 157/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7306 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68519 mae: 0.02238
+Epoch 158/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7335 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68519 mae: 0.02181
+Epoch 159/300
+19/19 - 41s - loss: 0.0198 - energy_within_threshold: 0.7228 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73401 mae: 0.02212
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.73064 -> 0.73401
+Epoch 160/300
+19/19 - 42s - loss: 0.0199 - energy_within_threshold: 0.7321 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73064 mae: 0.02205
+Epoch 161/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7349 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73064 mae: 0.02199
+Epoch 162/300
+19/19 - 42s - loss: 0.0201 - energy_within_threshold: 0.7207 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65825 mae: 0.02236
+Epoch 163/300
+19/19 - 42s - loss: 0.0206 - energy_within_threshold: 0.7290 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72054 mae: 0.02199
+Epoch 164/300
+19/19 - 42s - loss: 0.0201 - energy_within_threshold: 0.7327 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71886 mae: 0.02281
+Epoch 165/300
+19/19 - 41s - loss: 0.0199 - energy_within_threshold: 0.7167 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69865 mae: 0.02253
+Epoch 166/300
+19/19 - 41s - loss: 0.0202 - energy_within_threshold: 0.7114 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65657 mae: 0.02235
+Epoch 167/300
+19/19 - 42s - loss: 0.0200 - energy_within_threshold: 0.7230 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69865 mae: 0.02208
+Epoch 168/300
+19/19 - 41s - loss: 0.0199 - energy_within_threshold: 0.7146 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71549 mae: 0.02178
+Epoch 169/300
+19/19 - 41s - loss: 0.0197 - energy_within_threshold: 0.7386 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73569 mae: 0.02190
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.73401 -> 0.73569
+Epoch 170/300
+19/19 - 42s - loss: 0.0196 - energy_within_threshold: 0.7347 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69024 mae: 0.02180
+Epoch 171/300
+19/19 - 42s - loss: 0.0196 - energy_within_threshold: 0.7289 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70370 mae: 0.02197
+Epoch 172/300
+19/19 - 42s - loss: 0.0195 - energy_within_threshold: 0.7365 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70539 mae: 0.02226
+Epoch 173/300
+19/19 - 42s - loss: 0.0201 - energy_within_threshold: 0.7147 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70875 mae: 0.02158
+Epoch 174/300
+19/19 - 42s - loss: 0.0199 - energy_within_threshold: 0.7142 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73569 mae: 0.02246
+Epoch 175/300
+19/19 - 42s - loss: 0.0197 - energy_within_threshold: 0.7302 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72559 mae: 0.02161
+Epoch 176/300
+19/19 - 41s - loss: 0.0196 - energy_within_threshold: 0.7383 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71549 mae: 0.02170
+Epoch 177/300
+19/19 - 42s - loss: 0.0195 - energy_within_threshold: 0.7282 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72222 mae: 0.02160
+Epoch 178/300
+19/19 - 42s - loss: 0.0196 - energy_within_threshold: 0.7414 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70875 mae: 0.02178
+Epoch 179/300
+19/19 - 42s - loss: 0.0196 - energy_within_threshold: 0.7312 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70875 mae: 0.02160
+Epoch 180/300
+19/19 - 42s - loss: 0.0194 - energy_within_threshold: 0.7260 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67677 mae: 0.02191
+Epoch 181/300
+19/19 - 42s - loss: 0.0203 - energy_within_threshold: 0.7294 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73232 mae: 0.02204
+Epoch 182/300
+19/19 - 42s - loss: 0.0200 - energy_within_threshold: 0.7182 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70370 mae: 0.02202
+Epoch 183/300
+19/19 - 42s - loss: 0.0199 - energy_within_threshold: 0.7217 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70707 mae: 0.02158
+Epoch 184/300
+19/19 - 42s - loss: 0.0195 - energy_within_threshold: 0.7317 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68519 mae: 0.02193
+Epoch 185/300
+19/19 - 42s - loss: 0.0198 - energy_within_threshold: 0.7261 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.74074 mae: 0.02160
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.73569 -> 0.74074
+Epoch 186/300
+19/19 - 42s - loss: 0.0196 - energy_within_threshold: 0.7195 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69865 mae: 0.02160
+Epoch 187/300
+19/19 - 41s - loss: 0.0196 - energy_within_threshold: 0.7374 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73232 mae: 0.02170
+Epoch 188/300
+19/19 - 42s - loss: 0.0196 - energy_within_threshold: 0.7286 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71717 mae: 0.02151
+Epoch 189/300
+19/19 - 42s - loss: 0.0195 - energy_within_threshold: 0.7395 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71212 mae: 0.02141
+Epoch 190/300
+19/19 - 42s - loss: 0.0195 - energy_within_threshold: 0.7355 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69529 mae: 0.02173
+Epoch 191/300
+19/19 - 41s - loss: 0.0197 - energy_within_threshold: 0.7321 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72559 mae: 0.02141
+Epoch 192/300
+19/19 - 42s - loss: 0.0196 - energy_within_threshold: 0.7213 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71549 mae: 0.02173
+Epoch 193/300
+19/19 - 42s - loss: 0.0193 - energy_within_threshold: 0.7302 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69697 mae: 0.02140
+Epoch 194/300
+19/19 - 41s - loss: 0.0196 - energy_within_threshold: 0.7357 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66835 mae: 0.02192
+Epoch 195/300
+19/19 - 41s - loss: 0.0200 - energy_within_threshold: 0.7204 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70539 mae: 0.02156
+Epoch 196/300
+19/19 - 42s - loss: 0.0200 - energy_within_threshold: 0.7055 - lr: 1.0000e-04 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70034 mae: 0.02191
+Epoch 197/300
+19/19 - 41s - loss: 0.0198 - energy_within_threshold: 0.7262 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71717 mae: 0.02235
+Epoch 198/300
+19/19 - 41s - loss: 0.0199 - energy_within_threshold: 0.7328 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68687 mae: 0.02154
+Epoch 199/300
+19/19 - 41s - loss: 0.0196 - energy_within_threshold: 0.7181 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69529 mae: 0.02130
+Epoch 200/300
+19/19 - 41s - loss: 0.0198 - energy_within_threshold: 0.7331 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71549 mae: 0.02119
+Epoch 201/300
+19/19 - 41s - loss: 0.0192 - energy_within_threshold: 0.7278 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71212 mae: 0.02151
+Epoch 202/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7277 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71717 mae: 0.02112
+Epoch 203/300
+19/19 - 41s - loss: 0.0196 - energy_within_threshold: 0.7305 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72054 mae: 0.02132
+Epoch 204/300
+19/19 - 42s - loss: 0.0197 - energy_within_threshold: 0.7443 - lr: 5.0000e-05 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71717 mae: 0.02139
+Epoch 205/300
+19/19 - 41s - loss: 0.0192 - energy_within_threshold: 0.7331 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71717 mae: 0.02111
+Epoch 206/300
+19/19 - 41s - loss: 0.0192 - energy_within_threshold: 0.7281 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71549 mae: 0.02120
+Epoch 207/300
+19/19 - 41s - loss: 0.0195 - energy_within_threshold: 0.7328 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70707 mae: 0.02099
+Epoch 208/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7296 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69697 mae: 0.02121
+Epoch 209/300
+19/19 - 41s - loss: 0.0192 - energy_within_threshold: 0.7347 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71212 mae: 0.02108
+Epoch 210/300
+19/19 - 41s - loss: 0.0193 - energy_within_threshold: 0.7315 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72391 mae: 0.02099
+Epoch 211/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7248 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72391 mae: 0.02112
+Epoch 212/300
+19/19 - 41s - loss: 0.0192 - energy_within_threshold: 0.7311 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70034 mae: 0.02136
+Epoch 213/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7414 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73569 mae: 0.02132
+Epoch 214/300
+19/19 - 42s - loss: 0.0194 - energy_within_threshold: 0.7261 - lr: 5.0000e-05 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71380 mae: 0.02117
+Epoch 215/300
+19/19 - 41s - loss: 0.0195 - energy_within_threshold: 0.7366 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73232 mae: 0.02106
+Epoch 216/300
+19/19 - 41s - loss: 0.0193 - energy_within_threshold: 0.7366 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68855 mae: 0.02156
+Epoch 217/300
+19/19 - 41s - loss: 0.0194 - energy_within_threshold: 0.7354 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71212 mae: 0.02098
+Epoch 218/300
+19/19 - 41s - loss: 0.0196 - energy_within_threshold: 0.7297 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.74242 mae: 0.02158
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.74074 -> 0.74242
+Epoch 219/300
+19/19 - 41s - loss: 0.0194 - energy_within_threshold: 0.7320 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69360 mae: 0.02130
+Epoch 220/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7416 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72559 mae: 0.02110
+Epoch 221/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7366 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70707 mae: 0.02097
+Epoch 222/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7386 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72222 mae: 0.02092
+Epoch 223/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7367 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72222 mae: 0.02132
+Epoch 224/300
+19/19 - 41s - loss: 0.0194 - energy_within_threshold: 0.7414 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70875 mae: 0.02094
+Epoch 225/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7331 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70875 mae: 0.02093
+Epoch 226/300
+19/19 - 42s - loss: 0.0191 - energy_within_threshold: 0.7339 - lr: 5.0000e-05 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71044 mae: 0.02090
+Epoch 227/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7360 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73064 mae: 0.02089
+Epoch 228/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7339 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70875 mae: 0.02085
+Epoch 229/300
+19/19 - 41s - loss: 0.0192 - energy_within_threshold: 0.7317 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72054 mae: 0.02095
+Epoch 230/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7359 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73064 mae: 0.02096
+Epoch 231/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7269 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72222 mae: 0.02086
+Epoch 232/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7314 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72054 mae: 0.02090
+Epoch 233/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7304 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72054 mae: 0.02068
+Epoch 234/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7332 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72391 mae: 0.02103
+Epoch 235/300
+19/19 - 41s - loss: 0.0187 - energy_within_threshold: 0.7357 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72222 mae: 0.02073
+Epoch 236/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7312 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70875 mae: 0.02070
+Epoch 237/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7300 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69360 mae: 0.02136
+Epoch 238/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7366 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71380 mae: 0.02098
+Epoch 239/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7347 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73401 mae: 0.02121
+Epoch 240/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7289 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70707 mae: 0.02087
+Epoch 241/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7324 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72727 mae: 0.02082
+Epoch 242/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7316 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72727 mae: 0.02087
+Epoch 243/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7343 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69360 mae: 0.02126
+Epoch 244/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7387 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71717 mae: 0.02071
+Epoch 245/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7294 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71549 mae: 0.02060
+Epoch 246/300
+19/19 - 41s - loss: 0.0189 - energy_within_threshold: 0.7357 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71212 mae: 0.02065
+Epoch 247/300
+19/19 - 41s - loss: 0.0189 - energy_within_threshold: 0.7348 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69360 mae: 0.02110
+Epoch 248/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7316 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73737 mae: 0.02129
+Epoch 249/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7285 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72054 mae: 0.02075
+Epoch 250/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7334 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70707 mae: 0.02072
+Epoch 251/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7363 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71380 mae: 0.02060
+Epoch 252/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7300 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71380 mae: 0.02059
+Epoch 253/300
+19/19 - 41s - loss: 0.0192 - energy_within_threshold: 0.7381 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73906 mae: 0.02100
+Epoch 254/300
+19/19 - 41s - loss: 0.0192 - energy_within_threshold: 0.7290 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71380 mae: 0.02123
+Epoch 255/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7357 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72054 mae: 0.02066
+Epoch 256/300
+19/19 - 41s - loss: 0.0192 - energy_within_threshold: 0.7383 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70539 mae: 0.02101
+Epoch 257/300
+19/19 - 41s - loss: 0.0193 - energy_within_threshold: 0.7325 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70539 mae: 0.02076
+Epoch 258/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7361 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.74579 mae: 0.02109
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.74242 -> 0.74579
+Epoch 259/300
+19/19 - 42s - loss: 0.0187 - energy_within_threshold: 0.7320 - lr: 5.0000e-05 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71044 mae: 0.02061
+Epoch 260/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7442 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72222 mae: 0.02087
+Epoch 261/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7303 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68350 mae: 0.02087
+Epoch 262/300
+19/19 - 41s - loss: 0.0189 - energy_within_threshold: 0.7335 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70875 mae: 0.02084
+Epoch 263/300
+19/19 - 41s - loss: 0.0189 - energy_within_threshold: 0.7276 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71549 mae: 0.02056
+Epoch 264/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7254 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71717 mae: 0.02068
+Epoch 265/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7230 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71886 mae: 0.02050
+Epoch 266/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7280 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.74747 mae: 0.02086
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.74579 -> 0.74747
+Epoch 267/300
+19/19 - 42s - loss: 0.0188 - energy_within_threshold: 0.7352 - lr: 5.0000e-05 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70875 mae: 0.02075
+Epoch 268/300
+19/19 - 41s - loss: 0.0189 - energy_within_threshold: 0.7364 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71212 mae: 0.02056
+Epoch 269/300
+19/19 - 41s - loss: 0.0193 - energy_within_threshold: 0.7361 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71549 mae: 0.02074
+Epoch 270/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7329 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71886 mae: 0.02043
+Epoch 271/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7359 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72054 mae: 0.02088
+Epoch 272/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7337 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70707 mae: 0.02100
+Epoch 273/300
+19/19 - 41s - loss: 0.0193 - energy_within_threshold: 0.7447 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71380 mae: 0.02049
+Epoch 274/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7338 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71886 mae: 0.02078
+Epoch 275/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7352 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70370 mae: 0.02059
+Epoch 276/300
+19/19 - 41s - loss: 0.0189 - energy_within_threshold: 0.7417 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69529 mae: 0.02059
+Epoch 277/300
+19/19 - 41s - loss: 0.0189 - energy_within_threshold: 0.7215 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70202 mae: 0.02065
+Epoch 278/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7329 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70539 mae: 0.02101
+Epoch 279/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7389 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.74747 mae: 0.02105
+Epoch 280/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7264 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69529 mae: 0.02095
+Epoch 281/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7351 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71549 mae: 0.02076
+Epoch 282/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7293 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71380 mae: 0.02047
+Epoch 283/300
+19/19 - 41s - loss: 0.0189 - energy_within_threshold: 0.7439 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71886 mae: 0.02079
+Epoch 284/300
+19/19 - 41s - loss: 0.0189 - energy_within_threshold: 0.7284 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70202 mae: 0.02081
+Epoch 285/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7285 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71717 mae: 0.02068
+Epoch 286/300
+19/19 - 41s - loss: 0.0192 - energy_within_threshold: 0.7296 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71886 mae: 0.02048
+Epoch 287/300
+19/19 - 41s - loss: 0.0193 - energy_within_threshold: 0.7300 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70539 mae: 0.02048
+Epoch 288/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7295 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70707 mae: 0.02051
+Epoch 289/300
+19/19 - 41s - loss: 0.0186 - energy_within_threshold: 0.7331 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72222 mae: 0.02029
+Epoch 290/300
+19/19 - 42s - loss: 0.0185 - energy_within_threshold: 0.7309 - lr: 5.0000e-05 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69360 mae: 0.02121
+Epoch 291/300
+19/19 - 41s - loss: 0.0191 - energy_within_threshold: 0.7392 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73906 mae: 0.02077
+Epoch 292/300
+19/19 - 41s - loss: 0.0189 - energy_within_threshold: 0.7274 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.74242 mae: 0.02118
+Epoch 293/300
+19/19 - 41s - loss: 0.0192 - energy_within_threshold: 0.7385 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71717 mae: 0.02025
+Epoch 294/300
+19/19 - 41s - loss: 0.0187 - energy_within_threshold: 0.7352 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70707 mae: 0.02068
+Epoch 295/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7329 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.72391 mae: 0.02030
+Epoch 296/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7244 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.74916 mae: 0.02089
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.74747 -> 0.74916
+Epoch 297/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7405 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71044 mae: 0.02064
+Epoch 298/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7433 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70875 mae: 0.02109
+Epoch 299/300
+19/19 - 41s - loss: 0.0190 - energy_within_threshold: 0.7471 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.73064 mae: 0.02113
+Epoch 300/300
+19/19 - 41s - loss: 0.0188 - energy_within_threshold: 0.7205 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.10455 mae: 0.41707
+INFO:megnet_models.callbacks:best energy_within_threshold: -inf -> 0.10455
+Epoch 1/300
+19/19 - 55s - loss: 0.4724 - energy_within_threshold: 0.0268 - lr: 5.0000e-04 - 55s/epoch - 3s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.05228 mae: 0.27145
+Epoch 2/300
+19/19 - 41s - loss: 0.4066 - energy_within_threshold: 0.0221 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.39460 mae: 0.12910
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.10455 -> 0.39460
+Epoch 3/300
+19/19 - 41s - loss: 0.1569 - energy_within_threshold: 0.2080 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20911 mae: 0.12988
+Epoch 4/300
+19/19 - 41s - loss: 0.1310 - energy_within_threshold: 0.2695 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25632 mae: 0.13085
+Epoch 5/300
+19/19 - 41s - loss: 0.1281 - energy_within_threshold: 0.2974 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34233 mae: 0.12528
+Epoch 6/300
+19/19 - 41s - loss: 0.1291 - energy_within_threshold: 0.2885 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17707 mae: 0.14130
+Epoch 7/300
+19/19 - 41s - loss: 0.1293 - energy_within_threshold: 0.2728 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.35076 mae: 0.12617
+Epoch 8/300
+19/19 - 41s - loss: 0.1231 - energy_within_threshold: 0.3530 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.41990 mae: 0.12640
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.39460 -> 0.41990
+Epoch 9/300
+19/19 - 41s - loss: 0.1265 - energy_within_threshold: 0.3077 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34233 mae: 0.12963
+Epoch 10/300
+19/19 - 41s - loss: 0.1254 - energy_within_threshold: 0.3455 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.39798 mae: 0.12370
+Epoch 11/300
+19/19 - 41s - loss: 0.1241 - energy_within_threshold: 0.2982 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.14671 mae: 0.13018
+Epoch 12/300
+19/19 - 41s - loss: 0.1240 - energy_within_threshold: 0.3592 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.19562 mae: 0.13462
+Epoch 13/300
+19/19 - 41s - loss: 0.1292 - energy_within_threshold: 0.2543 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.21922 mae: 0.13477
+Epoch 14/300
+19/19 - 41s - loss: 0.1311 - energy_within_threshold: 0.2253 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18044 mae: 0.13786
+Epoch 15/300
+19/19 - 41s - loss: 0.1249 - energy_within_threshold: 0.2956 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.21417 mae: 0.12050
+Epoch 16/300
+19/19 - 41s - loss: 0.1249 - energy_within_threshold: 0.2800 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.41315 mae: 0.11628
+Epoch 17/300
+19/19 - 41s - loss: 0.1175 - energy_within_threshold: 0.2946 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.30017 mae: 0.12071
+Epoch 18/300
+19/19 - 41s - loss: 0.1161 - energy_within_threshold: 0.3210 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22428 mae: 0.11599
+Epoch 19/300
+19/19 - 41s - loss: 0.1154 - energy_within_threshold: 0.2415 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22260 mae: 0.11278
+Epoch 20/300
+19/19 - 41s - loss: 0.1143 - energy_within_threshold: 0.2432 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34233 mae: 0.11423
+Epoch 21/300
+19/19 - 40s - loss: 0.1154 - energy_within_threshold: 0.2769 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.15514 mae: 0.13213
+Epoch 22/300
+19/19 - 41s - loss: 0.1154 - energy_within_threshold: 0.2485 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18212 mae: 0.11250
+Epoch 23/300
+19/19 - 41s - loss: 0.1199 - energy_within_threshold: 0.2281 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.24115 mae: 0.11122
+Epoch 24/300
+19/19 - 41s - loss: 0.1090 - energy_within_threshold: 0.2971 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.23946 mae: 0.11106
+Epoch 25/300
+19/19 - 41s - loss: 0.1107 - energy_within_threshold: 0.2863 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18381 mae: 0.11128
+Epoch 26/300
+19/19 - 41s - loss: 0.1131 - energy_within_threshold: 0.2540 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34907 mae: 0.11631
+Epoch 27/300
+19/19 - 41s - loss: 0.1129 - energy_within_threshold: 0.2358 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.37268 mae: 0.11621
+Epoch 28/300
+19/19 - 41s - loss: 0.1130 - energy_within_threshold: 0.2137 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.12816 mae: 0.11079
+Epoch 29/300
+19/19 - 41s - loss: 0.1100 - energy_within_threshold: 0.2267 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.10287 mae: 0.13464
+Epoch 30/300
+19/19 - 41s - loss: 0.1166 - energy_within_threshold: 0.2164 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.15852 mae: 0.10843
+Epoch 31/300
+19/19 - 40s - loss: 0.1187 - energy_within_threshold: 0.2013 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.28499 mae: 0.10795
+Epoch 32/300
+19/19 - 41s - loss: 0.1100 - energy_within_threshold: 0.1965 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20573 mae: 0.12765
+Epoch 33/300
+19/19 - 41s - loss: 0.1089 - energy_within_threshold: 0.2008 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16358 mae: 0.10512
+Epoch 34/300
+19/19 - 41s - loss: 0.1078 - energy_within_threshold: 0.2515 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34233 mae: 0.11328
+Epoch 35/300
+19/19 - 41s - loss: 0.1176 - energy_within_threshold: 0.1717 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.10287 mae: 0.10558
+Epoch 36/300
+19/19 - 41s - loss: 0.1106 - energy_within_threshold: 0.2472 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.41315 mae: 0.11898
+Epoch 37/300
+19/19 - 41s - loss: 0.0947 - energy_within_threshold: 0.1710 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.37437 mae: 0.08626
+Epoch 38/300
+19/19 - 41s - loss: 0.1133 - energy_within_threshold: 0.1857 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.33727 mae: 0.08938
+Epoch 39/300
+19/19 - 41s - loss: 0.1028 - energy_within_threshold: 0.2436 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17538 mae: 0.12071
+Epoch 40/300
+19/19 - 41s - loss: 0.1004 - energy_within_threshold: 0.2149 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.46037 mae: 0.09547
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.41990 -> 0.46037
+Epoch 41/300
+19/19 - 41s - loss: 0.0860 - energy_within_threshold: 0.2649 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17538 mae: 0.12056
+Epoch 42/300
+19/19 - 41s - loss: 0.1147 - energy_within_threshold: 0.3095 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.13322 mae: 0.11022
+Epoch 43/300
+19/19 - 41s - loss: 0.1126 - energy_within_threshold: 0.2791 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.15683 mae: 0.13530
+Epoch 44/300
+19/19 - 41s - loss: 0.0994 - energy_within_threshold: 0.1665 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.29342 mae: 0.06222
+Epoch 45/300
+19/19 - 41s - loss: 0.0806 - energy_within_threshold: 0.3206 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.14503 mae: 0.09336
+Epoch 46/300
+19/19 - 41s - loss: 0.0973 - energy_within_threshold: 0.2624 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17032 mae: 0.12486
+Epoch 47/300
+19/19 - 41s - loss: 0.1040 - energy_within_threshold: 0.2535 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16695 mae: 0.10496
+Epoch 48/300
+19/19 - 41s - loss: 0.1074 - energy_within_threshold: 0.2525 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16526 mae: 0.06282
+Epoch 49/300
+19/19 - 41s - loss: 0.0918 - energy_within_threshold: 0.2416 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.23777 mae: 0.14518
+Epoch 50/300
+19/19 - 41s - loss: 0.0813 - energy_within_threshold: 0.2749 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.37437 mae: 0.11875
+Epoch 51/300
+19/19 - 41s - loss: 0.1231 - energy_within_threshold: 0.3687 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.24115 mae: 0.10840
+Epoch 52/300
+19/19 - 41s - loss: 0.1121 - energy_within_threshold: 0.4216 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18887 mae: 0.08257
+Epoch 53/300
+19/19 - 41s - loss: 0.0902 - energy_within_threshold: 0.2423 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.47049 mae: 0.11960
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.46037 -> 0.47049
+Epoch 54/300
+19/19 - 41s - loss: 0.0971 - energy_within_threshold: 0.3168 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.31872 mae: 0.11392
+Epoch 55/300
+19/19 - 41s - loss: 0.1128 - energy_within_threshold: 0.4994 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20236 mae: 0.11260
+Epoch 56/300
+19/19 - 41s - loss: 0.1092 - energy_within_threshold: 0.3547 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20236 mae: 0.11124
+Epoch 57/300
+19/19 - 40s - loss: 0.1080 - energy_within_threshold: 0.3911 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.43002 mae: 0.08840
+Epoch 58/300
+19/19 - 41s - loss: 0.0996 - energy_within_threshold: 0.2171 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16189 mae: 0.08785
+Epoch 59/300
+19/19 - 41s - loss: 0.0785 - energy_within_threshold: 0.2756 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20067 mae: 0.08648
+Epoch 60/300
+19/19 - 40s - loss: 0.0705 - energy_within_threshold: 0.2365 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16526 mae: 0.19111
+Epoch 61/300
+19/19 - 41s - loss: 0.0833 - energy_within_threshold: 0.2549 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.48398 mae: 0.11441
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.47049 -> 0.48398
+Epoch 62/300
+19/19 - 41s - loss: 0.1378 - energy_within_threshold: 0.2290 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.42833 mae: 0.11187
+Epoch 63/300
+19/19 - 41s - loss: 0.1119 - energy_within_threshold: 0.3609 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20573 mae: 0.10883
+Epoch 64/300
+19/19 - 41s - loss: 0.1080 - energy_within_threshold: 0.3130 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17201 mae: 0.12258
+Epoch 65/300
+19/19 - 41s - loss: 0.1002 - energy_within_threshold: 0.2307 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17875 mae: 0.12967
+Epoch 66/300
+19/19 - 41s - loss: 0.0869 - energy_within_threshold: 0.2725 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20573 mae: 0.06093
+Epoch 67/300
+19/19 - 41s - loss: 0.0909 - energy_within_threshold: 0.2670 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18718 mae: 0.11882
+Epoch 68/300
+19/19 - 41s - loss: 0.1120 - energy_within_threshold: 0.2314 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.36594 mae: 0.10513
+Epoch 69/300
+19/19 - 41s - loss: 0.0949 - energy_within_threshold: 0.2954 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.41484 mae: 0.08801
+Epoch 70/300
+19/19 - 41s - loss: 0.0898 - energy_within_threshold: 0.2878 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25632 mae: 0.06128
+Epoch 71/300
+19/19 - 41s - loss: 0.0809 - energy_within_threshold: 0.3001 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.37099 mae: 0.06491
+Epoch 72/300
+19/19 - 41s - loss: 0.0764 - energy_within_threshold: 0.3302 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.47892 mae: 0.07693
+Epoch 73/300
+19/19 - 40s - loss: 0.0740 - energy_within_threshold: 0.3014 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17032 mae: 0.08445
+Epoch 74/300
+19/19 - 41s - loss: 0.0756 - energy_within_threshold: 0.3461 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.49578 mae: 0.07906
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.48398 -> 0.49578
+Epoch 75/300
+19/19 - 41s - loss: 0.0862 - energy_within_threshold: 0.2890 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.21248 mae: 0.06866
+Epoch 76/300
+19/19 - 41s - loss: 0.0741 - energy_within_threshold: 0.3107 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.24115 mae: 0.11008
+Epoch 77/300
+19/19 - 41s - loss: 0.0676 - energy_within_threshold: 0.3163 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.50253 mae: 0.05865
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.49578 -> 0.50253
+Epoch 78/300
+19/19 - 41s - loss: 0.0664 - energy_within_threshold: 0.3870 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.14840 mae: 0.10809
+Epoch 79/300
+19/19 - 41s - loss: 0.0798 - energy_within_threshold: 0.4094 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.48735 mae: 0.12072
+Epoch 80/300
+19/19 - 41s - loss: 0.1016 - energy_within_threshold: 0.3029 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.29342 mae: 0.09514
+Epoch 81/300
+19/19 - 41s - loss: 0.1065 - energy_within_threshold: 0.3500 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20911 mae: 0.07861
+Epoch 82/300
+19/19 - 41s - loss: 0.0900 - energy_within_threshold: 0.2784 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.39292 mae: 0.05747
+Epoch 83/300
+19/19 - 41s - loss: 0.0862 - energy_within_threshold: 0.2424 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.36256 mae: 0.07365
+Epoch 84/300
+19/19 - 41s - loss: 0.0695 - energy_within_threshold: 0.2868 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.38954 mae: 0.05164
+Epoch 85/300
+19/19 - 41s - loss: 0.0795 - energy_within_threshold: 0.2699 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17538 mae: 0.08851
+Epoch 86/300
+19/19 - 41s - loss: 0.0759 - energy_within_threshold: 0.3194 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.31535 mae: 0.06055
+Epoch 87/300
+19/19 - 41s - loss: 0.0702 - energy_within_threshold: 0.3120 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18212 mae: 0.10687
+Epoch 88/300
+19/19 - 41s - loss: 0.0763 - energy_within_threshold: 0.2779 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16526 mae: 0.07959
+Epoch 89/300
+19/19 - 41s - loss: 0.0770 - energy_within_threshold: 0.2279 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.21248 mae: 0.06712
+Epoch 90/300
+19/19 - 41s - loss: 0.0683 - energy_within_threshold: 0.2418 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.15683 mae: 0.09814
+Epoch 91/300
+19/19 - 41s - loss: 0.0761 - energy_within_threshold: 0.2700 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25126 mae: 0.10277
+Epoch 92/300
+19/19 - 41s - loss: 0.0697 - energy_within_threshold: 0.2981 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20742 mae: 0.05082
+Epoch 93/300
+19/19 - 41s - loss: 0.0738 - energy_within_threshold: 0.2861 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.37099 mae: 0.06086
+Epoch 94/300
+19/19 - 41s - loss: 0.0758 - energy_within_threshold: 0.2677 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.12310 mae: 0.08915
+Epoch 95/300
+19/19 - 41s - loss: 0.0697 - energy_within_threshold: 0.2733 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.06408 mae: 0.15410
+Epoch 96/300
+19/19 - 41s - loss: 0.1240 - energy_within_threshold: 0.1909 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.44519 mae: 0.11746
+Epoch 97/300
+19/19 - 41s - loss: 0.1296 - energy_within_threshold: 0.2966 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.15514 mae: 0.12241
+Epoch 98/300
+19/19 - 41s - loss: 0.1127 - energy_within_threshold: 0.2884 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20911 mae: 0.09588
+Epoch 99/300
+19/19 - 41s - loss: 0.1058 - energy_within_threshold: 0.1965 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17032 mae: 0.06765
+Epoch 100/300
+19/19 - 41s - loss: 0.0893 - energy_within_threshold: 0.2275 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.36088 mae: 0.04945
+Epoch 101/300
+19/19 - 41s - loss: 0.0578 - energy_within_threshold: 0.2743 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.47218 mae: 0.04527
+Epoch 102/300
+19/19 - 41s - loss: 0.0495 - energy_within_threshold: 0.4350 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34233 mae: 0.04869
+Epoch 103/300
+19/19 - 41s - loss: 0.0488 - energy_within_threshold: 0.3997 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34233 mae: 0.04974
+Epoch 104/300
+19/19 - 41s - loss: 0.0505 - energy_within_threshold: 0.3920 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.47892 mae: 0.04066
+Epoch 105/300
+19/19 - 41s - loss: 0.0446 - energy_within_threshold: 0.4923 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17032 mae: 0.04874
+Epoch 106/300
+19/19 - 41s - loss: 0.0490 - energy_within_threshold: 0.3837 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.48229 mae: 0.04115
+Epoch 107/300
+19/19 - 41s - loss: 0.0434 - energy_within_threshold: 0.5015 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52614 mae: 0.04072
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.50253 -> 0.52614
+Epoch 108/300
+19/19 - 41s - loss: 0.0442 - energy_within_threshold: 0.4973 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.59696 mae: 0.03827
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.52614 -> 0.59696
+Epoch 109/300
+19/19 - 41s - loss: 0.0459 - energy_within_threshold: 0.4864 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.56324 mae: 0.03768
+Epoch 110/300
+19/19 - 41s - loss: 0.0419 - energy_within_threshold: 0.5072 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52614 mae: 0.04245
+Epoch 111/300
+19/19 - 41s - loss: 0.0451 - energy_within_threshold: 0.5076 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.45025 mae: 0.04287
+Epoch 112/300
+19/19 - 41s - loss: 0.0404 - energy_within_threshold: 0.5563 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.59696 mae: 0.03809
+Epoch 113/300
+19/19 - 41s - loss: 0.0417 - energy_within_threshold: 0.5132 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.50759 mae: 0.04295
+Epoch 114/300
+19/19 - 41s - loss: 0.0438 - energy_within_threshold: 0.5225 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34064 mae: 0.06035
+Epoch 115/300
+19/19 - 41s - loss: 0.0479 - energy_within_threshold: 0.4939 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.43845 mae: 0.04509
+Epoch 116/300
+19/19 - 41s - loss: 0.0487 - energy_within_threshold: 0.4327 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.58516 mae: 0.03946
+Epoch 117/300
+19/19 - 41s - loss: 0.0428 - energy_within_threshold: 0.5226 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.49916 mae: 0.04639
+Epoch 118/300
+19/19 - 41s - loss: 0.0432 - energy_within_threshold: 0.5208 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.51939 mae: 0.04020
+Epoch 119/300
+19/19 - 41s - loss: 0.0449 - energy_within_threshold: 0.4860 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61551 mae: 0.03694
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.59696 -> 0.61551
+Epoch 120/300
+19/19 - 41s - loss: 0.0384 - energy_within_threshold: 0.6039 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.50084 mae: 0.04814
+Epoch 121/300
+19/19 - 41s - loss: 0.0397 - energy_within_threshold: 0.5781 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.51433 mae: 0.04232
+Epoch 122/300
+19/19 - 41s - loss: 0.0421 - energy_within_threshold: 0.5379 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25126 mae: 0.06176
+Epoch 123/300
+19/19 - 41s - loss: 0.0462 - energy_within_threshold: 0.4862 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.59696 mae: 0.04308
+Epoch 124/300
+19/19 - 41s - loss: 0.0435 - energy_within_threshold: 0.4899 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64755 mae: 0.03705
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.61551 -> 0.64755
+Epoch 125/300
+19/19 - 41s - loss: 0.0449 - energy_within_threshold: 0.4800 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.45194 mae: 0.04711
+Epoch 126/300
+19/19 - 41s - loss: 0.0423 - energy_within_threshold: 0.5380 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61889 mae: 0.03715
+Epoch 127/300
+19/19 - 41s - loss: 0.0443 - energy_within_threshold: 0.5159 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.48904 mae: 0.04142
+Epoch 128/300
+19/19 - 41s - loss: 0.0456 - energy_within_threshold: 0.5047 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.43845 mae: 0.04627
+Epoch 129/300
+19/19 - 41s - loss: 0.0436 - energy_within_threshold: 0.5222 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.46206 mae: 0.04868
+Epoch 130/300
+19/19 - 41s - loss: 0.0497 - energy_within_threshold: 0.4142 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62563 mae: 0.03627
+Epoch 131/300
+19/19 - 41s - loss: 0.0443 - energy_within_threshold: 0.5135 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61214 mae: 0.03847
+Epoch 132/300
+19/19 - 41s - loss: 0.0394 - energy_within_threshold: 0.5702 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.28499 mae: 0.05118
+Epoch 133/300
+19/19 - 41s - loss: 0.0437 - energy_within_threshold: 0.5010 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.40978 mae: 0.04355
+Epoch 134/300
+19/19 - 41s - loss: 0.0444 - energy_within_threshold: 0.4955 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.45531 mae: 0.04617
+Epoch 135/300
+19/19 - 41s - loss: 0.0440 - energy_within_threshold: 0.4972 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.46712 mae: 0.04023
+Epoch 136/300
+19/19 - 41s - loss: 0.0424 - energy_within_threshold: 0.5373 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.51096 mae: 0.04256
+Epoch 137/300
+19/19 - 41s - loss: 0.0392 - energy_within_threshold: 0.5866 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.47218 mae: 0.04046
+Epoch 138/300
+19/19 - 41s - loss: 0.0394 - energy_within_threshold: 0.5786 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.51265 mae: 0.04479
+Epoch 139/300
+19/19 - 41s - loss: 0.0408 - energy_within_threshold: 0.5549 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.49241 mae: 0.04420
+Epoch 140/300
+19/19 - 41s - loss: 0.0391 - energy_within_threshold: 0.5724 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64418 mae: 0.03777
+Epoch 141/300
+19/19 - 41s - loss: 0.0418 - energy_within_threshold: 0.5234 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.50422 mae: 0.04273
+Epoch 142/300
+19/19 - 41s - loss: 0.0390 - energy_within_threshold: 0.5734 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.56492 mae: 0.04055
+Epoch 143/300
+19/19 - 41s - loss: 0.0421 - energy_within_threshold: 0.5137 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66273 mae: 0.03679
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.64755 -> 0.66273
+Epoch 144/300
+19/19 - 41s - loss: 0.0429 - energy_within_threshold: 0.5140 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62563 mae: 0.03588
+Epoch 145/300
+19/19 - 41s - loss: 0.0389 - energy_within_threshold: 0.6175 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20911 mae: 0.05267
+Epoch 146/300
+19/19 - 41s - loss: 0.0408 - energy_within_threshold: 0.5111 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63406 mae: 0.03680
+Epoch 147/300
+19/19 - 41s - loss: 0.0463 - energy_within_threshold: 0.4734 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52782 mae: 0.04125
+Epoch 148/300
+19/19 - 41s - loss: 0.0391 - energy_within_threshold: 0.5871 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.42664 mae: 0.04410
+Epoch 149/300
+19/19 - 41s - loss: 0.0400 - energy_within_threshold: 0.6052 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.44857 mae: 0.05119
+Epoch 150/300
+19/19 - 41s - loss: 0.0457 - energy_within_threshold: 0.4777 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.50927 mae: 0.04269
+Epoch 151/300
+19/19 - 41s - loss: 0.0434 - energy_within_threshold: 0.5000 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53626 mae: 0.03838
+Epoch 152/300
+19/19 - 41s - loss: 0.0407 - energy_within_threshold: 0.5414 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61720 mae: 0.03731
+Epoch 153/300
+19/19 - 41s - loss: 0.0390 - energy_within_threshold: 0.5923 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52951 mae: 0.04200
+Epoch 154/300
+19/19 - 41s - loss: 0.0418 - energy_within_threshold: 0.5367 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62395 mae: 0.03719
+Epoch 155/300
+19/19 - 41s - loss: 0.0401 - energy_within_threshold: 0.5677 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62901 mae: 0.03720
+Epoch 156/300
+19/19 - 41s - loss: 0.0397 - energy_within_threshold: 0.5582 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53120 mae: 0.04196
+Epoch 157/300
+19/19 - 41s - loss: 0.0392 - energy_within_threshold: 0.5707 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52614 mae: 0.04198
+Epoch 158/300
+19/19 - 41s - loss: 0.0391 - energy_within_threshold: 0.5717 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67791 mae: 0.03637
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.66273 -> 0.67791
+Epoch 159/300
+19/19 - 41s - loss: 0.0372 - energy_within_threshold: 0.6013 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52108 mae: 0.03916
+Epoch 160/300
+19/19 - 41s - loss: 0.0382 - energy_within_threshold: 0.6261 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.42327 mae: 0.04325
+Epoch 161/300
+19/19 - 41s - loss: 0.0415 - energy_within_threshold: 0.5242 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.42496 mae: 0.05101
+Epoch 162/300
+19/19 - 41s - loss: 0.0483 - energy_within_threshold: 0.4928 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.45531 mae: 0.04631
+Epoch 163/300
+19/19 - 41s - loss: 0.0538 - energy_within_threshold: 0.4241 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.56661 mae: 0.04218
+Epoch 164/300
+19/19 - 41s - loss: 0.0410 - energy_within_threshold: 0.5413 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53963 mae: 0.03818
+Epoch 165/300
+19/19 - 41s - loss: 0.0388 - energy_within_threshold: 0.5808 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52277 mae: 0.04066
+Epoch 166/300
+19/19 - 41s - loss: 0.0391 - energy_within_threshold: 0.5696 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.58853 mae: 0.03745
+Epoch 167/300
+19/19 - 41s - loss: 0.0383 - energy_within_threshold: 0.6152 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.51602 mae: 0.04205
+Epoch 168/300
+19/19 - 41s - loss: 0.0418 - energy_within_threshold: 0.5377 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.51771 mae: 0.04249
+Epoch 169/300
+19/19 - 41s - loss: 0.0444 - energy_within_threshold: 0.4841 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52445 mae: 0.03859
+Epoch 170/300
+19/19 - 41s - loss: 0.0414 - energy_within_threshold: 0.5369 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62901 mae: 0.03568
+Epoch 171/300
+19/19 - 41s - loss: 0.0402 - energy_within_threshold: 0.5570 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53120 mae: 0.03822
+Epoch 172/300
+19/19 - 41s - loss: 0.0378 - energy_within_threshold: 0.5902 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65093 mae: 0.03512
+Epoch 173/300
+19/19 - 41s - loss: 0.0385 - energy_within_threshold: 0.5720 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52277 mae: 0.03988
+Epoch 174/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6321 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52951 mae: 0.03921
+Epoch 175/300
+19/19 - 41s - loss: 0.0394 - energy_within_threshold: 0.5912 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61551 mae: 0.03779
+Epoch 176/300
+19/19 - 41s - loss: 0.0387 - energy_within_threshold: 0.5730 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53120 mae: 0.04121
+Epoch 177/300
+19/19 - 41s - loss: 0.0386 - energy_within_threshold: 0.5857 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53794 mae: 0.03883
+Epoch 178/300
+19/19 - 41s - loss: 0.0392 - energy_within_threshold: 0.5824 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62901 mae: 0.03653
+Epoch 179/300
+19/19 - 41s - loss: 0.0385 - energy_within_threshold: 0.5743 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52614 mae: 0.04383
+Epoch 180/300
+19/19 - 41s - loss: 0.0413 - energy_within_threshold: 0.5454 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53120 mae: 0.03836
+Epoch 181/300
+19/19 - 41s - loss: 0.0450 - energy_within_threshold: 0.5343 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03891
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.67791 -> 0.68465
+Epoch 182/300
+19/19 - 41s - loss: 0.0403 - energy_within_threshold: 0.5729 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65093 mae: 0.03711
+Epoch 183/300
+19/19 - 41s - loss: 0.0409 - energy_within_threshold: 0.5428 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.51771 mae: 0.04511
+Epoch 184/300
+19/19 - 41s - loss: 0.0396 - energy_within_threshold: 0.5926 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64418 mae: 0.03559
+Epoch 185/300
+19/19 - 41s - loss: 0.0447 - energy_within_threshold: 0.5165 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53963 mae: 0.03846
+Epoch 186/300
+19/19 - 41s - loss: 0.0378 - energy_within_threshold: 0.6046 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53120 mae: 0.03951
+Epoch 187/300
+19/19 - 41s - loss: 0.0390 - energy_within_threshold: 0.5781 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63406 mae: 0.03748
+Epoch 188/300
+19/19 - 41s - loss: 0.0399 - energy_within_threshold: 0.5803 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64755 mae: 0.03514
+Epoch 189/300
+19/19 - 41s - loss: 0.0377 - energy_within_threshold: 0.6153 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66105 mae: 0.03550
+Epoch 190/300
+19/19 - 41s - loss: 0.0401 - energy_within_threshold: 0.5762 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52614 mae: 0.03879
+Epoch 191/300
+19/19 - 41s - loss: 0.0366 - energy_within_threshold: 0.6200 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61046 mae: 0.03696
+Epoch 192/300
+19/19 - 41s - loss: 0.0380 - energy_within_threshold: 0.5911 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65767 mae: 0.03498
+Epoch 193/300
+19/19 - 41s - loss: 0.0373 - energy_within_threshold: 0.6109 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52614 mae: 0.04104
+Epoch 194/300
+19/19 - 41s - loss: 0.0393 - energy_within_threshold: 0.5969 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61046 mae: 0.03813
+Epoch 195/300
+19/19 - 41s - loss: 0.0430 - energy_within_threshold: 0.5498 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52614 mae: 0.04113
+Epoch 196/300
+19/19 - 41s - loss: 0.0404 - energy_within_threshold: 0.5626 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65599 mae: 0.03503
+Epoch 197/300
+19/19 - 41s - loss: 0.0398 - energy_within_threshold: 0.5619 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52782 mae: 0.03872
+Epoch 198/300
+19/19 - 41s - loss: 0.0390 - energy_within_threshold: 0.5826 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.50759 mae: 0.04131
+Epoch 199/300
+19/19 - 41s - loss: 0.0398 - energy_within_threshold: 0.5532 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52614 mae: 0.04082
+Epoch 200/300
+19/19 - 41s - loss: 0.0418 - energy_within_threshold: 0.5445 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63406 mae: 0.03556
+Epoch 201/300
+19/19 - 41s - loss: 0.0380 - energy_within_threshold: 0.5812 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65430 mae: 0.03464
+Epoch 202/300
+19/19 - 41s - loss: 0.0354 - energy_within_threshold: 0.6490 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64755 mae: 0.03551
+Epoch 203/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6489 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.60034 mae: 0.03655
+Epoch 204/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6414 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66105 mae: 0.03512
+Epoch 205/300
+19/19 - 41s - loss: 0.0378 - energy_within_threshold: 0.6197 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.54637 mae: 0.03690
+Epoch 206/300
+19/19 - 41s - loss: 0.0370 - energy_within_threshold: 0.6177 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61383 mae: 0.03675
+Epoch 207/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6282 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65261 mae: 0.03481
+Epoch 208/300
+19/19 - 41s - loss: 0.0366 - energy_within_threshold: 0.6315 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63575 mae: 0.03559
+Epoch 209/300
+19/19 - 41s - loss: 0.0353 - energy_within_threshold: 0.6614 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62901 mae: 0.03458
+Epoch 210/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6540 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53794 mae: 0.03671
+Epoch 211/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6621 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65599 mae: 0.03506
+Epoch 212/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6406 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65599 mae: 0.03595
+Epoch 213/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6259 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63238 mae: 0.03454
+Epoch 214/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6519 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65599 mae: 0.03461
+Epoch 215/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6622 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65261 mae: 0.03450
+Epoch 216/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6401 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65599 mae: 0.03435
+Epoch 217/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6522 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65261 mae: 0.03412
+Epoch 218/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6572 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65599 mae: 0.03402
+Epoch 219/300
+19/19 - 41s - loss: 0.0356 - energy_within_threshold: 0.6533 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65430 mae: 0.03427
+Epoch 220/300
+19/19 - 41s - loss: 0.0354 - energy_within_threshold: 0.6599 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52277 mae: 0.03991
+Epoch 221/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6293 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62901 mae: 0.03499
+Epoch 222/300
+19/19 - 41s - loss: 0.0372 - energy_within_threshold: 0.6355 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52108 mae: 0.03737
+Epoch 223/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6457 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65093 mae: 0.03639
+Epoch 224/300
+19/19 - 41s - loss: 0.0387 - energy_within_threshold: 0.5704 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.59528 mae: 0.03660
+Epoch 225/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6378 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66948 mae: 0.03437
+Epoch 226/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6465 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65261 mae: 0.03512
+Epoch 227/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6495 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65599 mae: 0.03554
+Epoch 228/300
+19/19 - 41s - loss: 0.0354 - energy_within_threshold: 0.6551 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66105 mae: 0.03494
+Epoch 229/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6543 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65093 mae: 0.03470
+Epoch 230/300
+19/19 - 41s - loss: 0.0354 - energy_within_threshold: 0.6346 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66442 mae: 0.03409
+Epoch 231/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6223 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66105 mae: 0.03512
+Epoch 232/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6276 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65093 mae: 0.03438
+Epoch 233/300
+19/19 - 41s - loss: 0.0356 - energy_within_threshold: 0.6374 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65767 mae: 0.03424
+Epoch 234/300
+19/19 - 41s - loss: 0.0353 - energy_within_threshold: 0.6662 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65430 mae: 0.03548
+Epoch 235/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6446 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66779 mae: 0.03430
+Epoch 236/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6550 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52782 mae: 0.03735
+Epoch 237/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6258 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66948 mae: 0.03601
+Epoch 238/300
+19/19 - 41s - loss: 0.0373 - energy_within_threshold: 0.5823 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65430 mae: 0.03560
+Epoch 239/300
+19/19 - 41s - loss: 0.0372 - energy_within_threshold: 0.5967 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65261 mae: 0.03365
+Epoch 240/300
+19/19 - 41s - loss: 0.0352 - energy_within_threshold: 0.6615 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67116 mae: 0.03589
+Epoch 241/300
+19/19 - 41s - loss: 0.0354 - energy_within_threshold: 0.6223 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66779 mae: 0.03555
+Epoch 242/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6241 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53457 mae: 0.03676
+Epoch 243/300
+19/19 - 41s - loss: 0.0366 - energy_within_threshold: 0.6451 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66442 mae: 0.03375
+Epoch 244/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6241 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65093 mae: 0.03377
+Epoch 245/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6424 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61889 mae: 0.03607
+Epoch 246/300
+19/19 - 41s - loss: 0.0374 - energy_within_threshold: 0.6099 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.54806 mae: 0.03660
+Epoch 247/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6567 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65936 mae: 0.03486
+Epoch 248/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6458 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.57504 mae: 0.03634
+Epoch 249/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6583 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66610 mae: 0.03385
+Epoch 250/300
+19/19 - 41s - loss: 0.0371 - energy_within_threshold: 0.6154 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66948 mae: 0.03585
+Epoch 251/300
+19/19 - 41s - loss: 0.0372 - energy_within_threshold: 0.6007 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.55481 mae: 0.03825
+Epoch 252/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6184 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.54637 mae: 0.03775
+Epoch 253/300
+19/19 - 41s - loss: 0.0371 - energy_within_threshold: 0.5812 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66442 mae: 0.03598
+Epoch 254/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6255 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65430 mae: 0.03395
+Epoch 255/300
+19/19 - 41s - loss: 0.0352 - energy_within_threshold: 0.6741 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.51939 mae: 0.03805
+Epoch 256/300
+19/19 - 41s - loss: 0.0372 - energy_within_threshold: 0.6031 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53288 mae: 0.04138
+Epoch 257/300
+19/19 - 41s - loss: 0.0394 - energy_within_threshold: 0.5605 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65767 mae: 0.03494
+Epoch 258/300
+19/19 - 41s - loss: 0.0372 - energy_within_threshold: 0.6129 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53120 mae: 0.03875
+Epoch 259/300
+19/19 - 41s - loss: 0.0368 - energy_within_threshold: 0.6188 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.58516 mae: 0.03698
+Epoch 260/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6293 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53120 mae: 0.03958
+Epoch 261/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6224 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61214 mae: 0.03510
+Epoch 262/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6159 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.55143 mae: 0.03592
+Epoch 263/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6329 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63406 mae: 0.03554
+Epoch 264/300
+19/19 - 41s - loss: 0.0354 - energy_within_threshold: 0.6422 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66779 mae: 0.03528
+Epoch 265/300
+19/19 - 41s - loss: 0.0352 - energy_within_threshold: 0.6452 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67285 mae: 0.03491
+Epoch 266/300
+19/19 - 41s - loss: 0.0352 - energy_within_threshold: 0.6481 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52951 mae: 0.03774
+Epoch 267/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6487 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65767 mae: 0.03523
+Epoch 268/300
+19/19 - 41s - loss: 0.0368 - energy_within_threshold: 0.6189 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66610 mae: 0.03404
+Epoch 269/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6539 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64755 mae: 0.03393
+Epoch 270/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6374 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66442 mae: 0.03380
+Epoch 271/300
+19/19 - 41s - loss: 0.0351 - energy_within_threshold: 0.6591 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64587 mae: 0.03460
+Epoch 272/300
+19/19 - 41s - loss: 0.0349 - energy_within_threshold: 0.6644 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67116 mae: 0.03341
+Epoch 273/300
+19/19 - 41s - loss: 0.0366 - energy_within_threshold: 0.6163 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66105 mae: 0.03428
+Epoch 274/300
+19/19 - 41s - loss: 0.0348 - energy_within_threshold: 0.6604 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.54637 mae: 0.03644
+Epoch 275/300
+19/19 - 41s - loss: 0.0351 - energy_within_threshold: 0.6623 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67454 mae: 0.03441
+Epoch 276/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6439 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64250 mae: 0.03540
+Epoch 277/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6108 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66610 mae: 0.03308
+Epoch 278/300
+19/19 - 41s - loss: 0.0353 - energy_within_threshold: 0.6428 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67960 mae: 0.03441
+Epoch 279/300
+19/19 - 41s - loss: 0.0352 - energy_within_threshold: 0.6633 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67791 mae: 0.03362
+Epoch 280/300
+19/19 - 41s - loss: 0.0349 - energy_within_threshold: 0.6749 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67791 mae: 0.03329
+Epoch 281/300
+19/19 - 41s - loss: 0.0353 - energy_within_threshold: 0.6573 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03444
+Epoch 282/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6384 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.61214 mae: 0.03488
+Epoch 283/300
+19/19 - 41s - loss: 0.0356 - energy_within_threshold: 0.6505 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03368
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.68465 -> 0.68634
+Epoch 284/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6236 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.54132 mae: 0.03906
+Epoch 285/300
+19/19 - 41s - loss: 0.0350 - energy_within_threshold: 0.6790 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03424
+Epoch 286/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6633 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67454 mae: 0.03336
+Epoch 287/300
+19/19 - 41s - loss: 0.0351 - energy_within_threshold: 0.6784 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03362
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.68634 -> 0.68971
+Epoch 288/300
+19/19 - 41s - loss: 0.0350 - energy_within_threshold: 0.6534 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53120 mae: 0.03598
+Epoch 289/300
+19/19 - 41s - loss: 0.0368 - energy_within_threshold: 0.6458 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03415
+Epoch 290/300
+19/19 - 42s - loss: 0.0375 - energy_within_threshold: 0.6005 - lr: 5.0000e-05 - 42s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.56492 mae: 0.03848
+Epoch 291/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6446 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.56324 mae: 0.03644
+Epoch 292/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6550 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68297 mae: 0.03302
+Epoch 293/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6167 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67116 mae: 0.03279
+Epoch 294/300
+19/19 - 41s - loss: 0.0341 - energy_within_threshold: 0.6852 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.58010 mae: 0.03781
+Epoch 295/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6221 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67116 mae: 0.03466
+Epoch 296/300
+19/19 - 41s - loss: 0.0356 - energy_within_threshold: 0.6567 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63238 mae: 0.03593
+Epoch 297/300
+19/19 - 41s - loss: 0.0353 - energy_within_threshold: 0.6587 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.64755 mae: 0.03522
+Epoch 298/300
+19/19 - 41s - loss: 0.0352 - energy_within_threshold: 0.6604 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.56492 mae: 0.03635
+Epoch 299/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6228 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63406 mae: 0.03455
+Epoch 300/300
+19/19 - 41s - loss: 0.0354 - energy_within_threshold: 0.6623 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.14840 mae: 0.46149
+INFO:megnet_models.callbacks:best energy_within_threshold: -inf -> 0.14840
+Epoch 1/300
+19/19 - 58s - loss: 0.4666 - energy_within_threshold: 0.0362 - lr: 5.0000e-04 - 58s/epoch - 3s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.00169 mae: 0.44070
+Epoch 2/300
+19/19 - 41s - loss: 0.4547 - energy_within_threshold: 0.0070 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.01180 mae: 0.43716
+Epoch 3/300
+19/19 - 41s - loss: 0.4566 - energy_within_threshold: 0.0230 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.00000 mae: 0.44039
+Epoch 4/300
+19/19 - 41s - loss: 0.4429 - energy_within_threshold: 0.0206 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.07926 mae: 0.47166
+Epoch 5/300
+19/19 - 41s - loss: 0.4443 - energy_within_threshold: 0.0173 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22091 mae: 0.25178
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.14840 -> 0.22091
+Epoch 6/300
+19/19 - 41s - loss: 0.4244 - energy_within_threshold: 0.0197 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17875 mae: 0.14279
+Epoch 7/300
+19/19 - 41s - loss: 0.1592 - energy_within_threshold: 0.2001 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.27993 mae: 0.13765
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.22091 -> 0.27993
+Epoch 8/300
+19/19 - 41s - loss: 0.1311 - energy_within_threshold: 0.2652 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.41990 mae: 0.12584
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.27993 -> 0.41990
+Epoch 9/300
+19/19 - 41s - loss: 0.1288 - energy_within_threshold: 0.2811 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.42833 mae: 0.12477
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.41990 -> 0.42833
+Epoch 10/300
+19/19 - 41s - loss: 0.1244 - energy_within_threshold: 0.3526 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16526 mae: 0.12734
+Epoch 11/300
+19/19 - 41s - loss: 0.1226 - energy_within_threshold: 0.3538 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22091 mae: 0.12663
+Epoch 12/300
+19/19 - 41s - loss: 0.1273 - energy_within_threshold: 0.2542 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.39292 mae: 0.12498
+Epoch 13/300
+19/19 - 40s - loss: 0.1247 - energy_within_threshold: 0.3273 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.43170 mae: 0.12554
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.42833 -> 0.43170
+Epoch 14/300
+19/19 - 41s - loss: 0.1259 - energy_within_threshold: 0.2985 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.43676 mae: 0.12687
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.43170 -> 0.43676
+Epoch 15/300
+19/19 - 41s - loss: 0.1274 - energy_within_threshold: 0.2576 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.24958 mae: 0.12967
+Epoch 16/300
+19/19 - 41s - loss: 0.1245 - energy_within_threshold: 0.3401 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.43339 mae: 0.12380
+Epoch 17/300
+19/19 - 41s - loss: 0.1289 - energy_within_threshold: 0.2542 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.21079 mae: 0.11977
+Epoch 18/300
+19/19 - 41s - loss: 0.1211 - energy_within_threshold: 0.3315 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25970 mae: 0.11668
+Epoch 19/300
+19/19 - 41s - loss: 0.1149 - energy_within_threshold: 0.3151 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.23440 mae: 0.11723
+Epoch 20/300
+19/19 - 41s - loss: 0.1164 - energy_within_threshold: 0.2789 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.29848 mae: 0.11254
+Epoch 21/300
+19/19 - 41s - loss: 0.1137 - energy_within_threshold: 0.3148 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.31197 mae: 0.12227
+Epoch 22/300
+19/19 - 41s - loss: 0.1139 - energy_within_threshold: 0.3114 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22766 mae: 0.11263
+Epoch 23/300
+19/19 - 40s - loss: 0.1153 - energy_within_threshold: 0.2751 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22091 mae: 0.11056
+Epoch 24/300
+19/19 - 41s - loss: 0.1133 - energy_within_threshold: 0.2557 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.30860 mae: 0.10979
+Epoch 25/300
+19/19 - 41s - loss: 0.1126 - energy_within_threshold: 0.2592 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.24115 mae: 0.10914
+Epoch 26/300
+19/19 - 41s - loss: 0.1121 - energy_within_threshold: 0.2982 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.42664 mae: 0.10759
+Epoch 27/300
+19/19 - 41s - loss: 0.1104 - energy_within_threshold: 0.2769 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.23946 mae: 0.10860
+Epoch 28/300
+19/19 - 41s - loss: 0.1130 - energy_within_threshold: 0.2247 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.26644 mae: 0.10568
+Epoch 29/300
+19/19 - 41s - loss: 0.1162 - energy_within_threshold: 0.2216 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20405 mae: 0.09860
+Epoch 30/300
+19/19 - 41s - loss: 0.1083 - energy_within_threshold: 0.1974 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.45700 mae: 0.11672
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.43676 -> 0.45700
+Epoch 31/300
+19/19 - 41s - loss: 0.1105 - energy_within_threshold: 0.2233 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.40978 mae: 0.10912
+Epoch 32/300
+19/19 - 41s - loss: 0.1132 - energy_within_threshold: 0.2527 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.21079 mae: 0.10544
+Epoch 33/300
+19/19 - 41s - loss: 0.1119 - energy_within_threshold: 0.3566 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25295 mae: 0.13447
+Epoch 34/300
+19/19 - 41s - loss: 0.1193 - energy_within_threshold: 0.2108 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22260 mae: 0.12518
+Epoch 35/300
+19/19 - 41s - loss: 0.1269 - energy_within_threshold: 0.3176 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.39629 mae: 0.11845
+Epoch 36/300
+19/19 - 41s - loss: 0.1205 - energy_within_threshold: 0.3947 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22766 mae: 0.11308
+Epoch 37/300
+19/19 - 40s - loss: 0.1162 - energy_within_threshold: 0.3754 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22766 mae: 0.11115
+Epoch 38/300
+19/19 - 41s - loss: 0.1148 - energy_within_threshold: 0.2389 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.41147 mae: 0.11008
+Epoch 39/300
+19/19 - 41s - loss: 0.1112 - energy_within_threshold: 0.2951 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.41315 mae: 0.10903
+Epoch 40/300
+19/19 - 41s - loss: 0.1106 - energy_within_threshold: 0.2698 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22766 mae: 0.10806
+Epoch 41/300
+19/19 - 41s - loss: 0.1094 - energy_within_threshold: 0.3349 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.28331 mae: 0.10209
+Epoch 42/300
+19/19 - 41s - loss: 0.1116 - energy_within_threshold: 0.2207 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.26981 mae: 0.09629
+Epoch 43/300
+19/19 - 41s - loss: 0.1080 - energy_within_threshold: 0.2510 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16189 mae: 0.11236
+Epoch 44/300
+19/19 - 41s - loss: 0.1079 - energy_within_threshold: 0.2532 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.35076 mae: 0.10638
+Epoch 45/300
+19/19 - 41s - loss: 0.1043 - energy_within_threshold: 0.2357 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17369 mae: 0.10047
+Epoch 46/300
+19/19 - 41s - loss: 0.1082 - energy_within_threshold: 0.2404 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.48735 mae: 0.11323
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.45700 -> 0.48735
+Epoch 47/300
+19/19 - 41s - loss: 0.1155 - energy_within_threshold: 0.3404 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.27319 mae: 0.10900
+Epoch 48/300
+19/19 - 40s - loss: 0.1099 - energy_within_threshold: 0.3451 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.24115 mae: 0.10690
+Epoch 49/300
+19/19 - 41s - loss: 0.1110 - energy_within_threshold: 0.2746 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22260 mae: 0.12595
+Epoch 50/300
+19/19 - 41s - loss: 0.1030 - energy_within_threshold: 0.2029 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.39798 mae: 0.08383
+Epoch 51/300
+19/19 - 41s - loss: 0.0970 - energy_within_threshold: 0.2329 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18212 mae: 0.11796
+Epoch 52/300
+19/19 - 40s - loss: 0.1039 - energy_within_threshold: 0.2900 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18550 mae: 0.06424
+Epoch 53/300
+19/19 - 41s - loss: 0.0902 - energy_within_threshold: 0.2442 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.41147 mae: 0.07350
+Epoch 54/300
+19/19 - 41s - loss: 0.0738 - energy_within_threshold: 0.2850 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.27825 mae: 0.09068
+Epoch 55/300
+19/19 - 41s - loss: 0.0623 - energy_within_threshold: 0.3576 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18887 mae: 0.10893
+Epoch 56/300
+19/19 - 41s - loss: 0.0834 - energy_within_threshold: 0.3073 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.45868 mae: 0.04475
+Epoch 57/300
+19/19 - 40s - loss: 0.0698 - energy_within_threshold: 0.3306 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.26813 mae: 0.05501
+Epoch 58/300
+19/19 - 40s - loss: 0.0568 - energy_within_threshold: 0.3439 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.30017 mae: 0.07317
+Epoch 59/300
+19/19 - 41s - loss: 0.0521 - energy_within_threshold: 0.3928 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.38449 mae: 0.04657
+Epoch 60/300
+19/19 - 41s - loss: 0.0701 - energy_within_threshold: 0.3145 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.45194 mae: 0.04082
+Epoch 61/300
+19/19 - 40s - loss: 0.0602 - energy_within_threshold: 0.3009 - lr: 5.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65261 mae: 0.03349
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.48735 -> 0.65261
+Epoch 62/300
+19/19 - 41s - loss: 0.0525 - energy_within_threshold: 0.3635 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.50759 mae: 0.03683
+Epoch 63/300
+19/19 - 41s - loss: 0.0435 - energy_within_threshold: 0.5141 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34570 mae: 0.03894
+Epoch 64/300
+19/19 - 41s - loss: 0.0418 - energy_within_threshold: 0.5222 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34570 mae: 0.04581
+Epoch 65/300
+19/19 - 41s - loss: 0.0457 - energy_within_threshold: 0.4747 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65767 mae: 0.03168
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.65261 -> 0.65767
+Epoch 66/300
+19/19 - 41s - loss: 0.0437 - energy_within_threshold: 0.4981 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.47555 mae: 0.04271
+Epoch 67/300
+19/19 - 41s - loss: 0.0400 - energy_within_threshold: 0.5862 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63744 mae: 0.03282
+Epoch 68/300
+19/19 - 41s - loss: 0.0434 - energy_within_threshold: 0.4997 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65767 mae: 0.03400
+Epoch 69/300
+19/19 - 41s - loss: 0.0397 - energy_within_threshold: 0.5901 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.54300 mae: 0.03541
+Epoch 70/300
+19/19 - 41s - loss: 0.0409 - energy_within_threshold: 0.5743 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65599 mae: 0.03166
+Epoch 71/300
+19/19 - 41s - loss: 0.0431 - energy_within_threshold: 0.5037 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.35750 mae: 0.04264
+Epoch 72/300
+19/19 - 41s - loss: 0.0502 - energy_within_threshold: 0.3834 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.58347 mae: 0.03522
+Epoch 73/300
+19/19 - 41s - loss: 0.0463 - energy_within_threshold: 0.4433 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.50253 mae: 0.04307
+Epoch 74/300
+19/19 - 41s - loss: 0.0483 - energy_within_threshold: 0.4122 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.24452 mae: 0.04564
+Epoch 75/300
+19/19 - 41s - loss: 0.0444 - energy_within_threshold: 0.4993 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53794 mae: 0.03857
+Epoch 76/300
+19/19 - 41s - loss: 0.0451 - energy_within_threshold: 0.4686 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.55649 mae: 0.03806
+Epoch 77/300
+19/19 - 41s - loss: 0.0425 - energy_within_threshold: 0.5065 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.54637 mae: 0.03573
+Epoch 78/300
+19/19 - 41s - loss: 0.0412 - energy_within_threshold: 0.5873 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.47049 mae: 0.03773
+Epoch 79/300
+19/19 - 41s - loss: 0.0425 - energy_within_threshold: 0.5104 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68803 mae: 0.03333
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.65767 -> 0.68803
+Epoch 80/300
+19/19 - 41s - loss: 0.0411 - energy_within_threshold: 0.5608 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53963 mae: 0.03794
+Epoch 81/300
+19/19 - 41s - loss: 0.0400 - energy_within_threshold: 0.5762 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.55143 mae: 0.03688
+Epoch 82/300
+19/19 - 41s - loss: 0.0403 - energy_within_threshold: 0.5811 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.54975 mae: 0.03852
+Epoch 83/300
+19/19 - 41s - loss: 0.0406 - energy_within_threshold: 0.5579 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53120 mae: 0.03454
+Epoch 84/300
+19/19 - 41s - loss: 0.0398 - energy_within_threshold: 0.6031 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.56324 mae: 0.03490
+Epoch 85/300
+19/19 - 41s - loss: 0.0401 - energy_within_threshold: 0.5705 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.52277 mae: 0.03643
+Epoch 86/300
+19/19 - 41s - loss: 0.0441 - energy_within_threshold: 0.4876 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.56155 mae: 0.03887
+Epoch 87/300
+19/19 - 41s - loss: 0.0421 - energy_within_threshold: 0.5211 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.51433 mae: 0.03435
+Epoch 88/300
+19/19 - 41s - loss: 0.0411 - energy_within_threshold: 0.5817 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.36762 mae: 0.04083
+Epoch 89/300
+19/19 - 41s - loss: 0.0420 - energy_within_threshold: 0.5212 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66948 mae: 0.03559
+Epoch 90/300
+19/19 - 41s - loss: 0.0415 - energy_within_threshold: 0.5538 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.55818 mae: 0.03527
+Epoch 91/300
+19/19 - 41s - loss: 0.0416 - energy_within_threshold: 0.5400 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.53626 mae: 0.03583
+Epoch 92/300
+19/19 - 41s - loss: 0.0386 - energy_within_threshold: 0.6376 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.59528 mae: 0.03640
+Epoch 93/300
+19/19 - 41s - loss: 0.0409 - energy_within_threshold: 0.5484 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.54469 mae: 0.03956
+Epoch 94/300
+19/19 - 41s - loss: 0.0408 - energy_within_threshold: 0.5713 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67960 mae: 0.03250
+Epoch 95/300
+19/19 - 41s - loss: 0.0408 - energy_within_threshold: 0.5463 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03290
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.68803 -> 0.69309
+Epoch 96/300
+19/19 - 41s - loss: 0.0396 - energy_within_threshold: 0.6249 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.63238 mae: 0.03510
+Epoch 97/300
+19/19 - 41s - loss: 0.0425 - energy_within_threshold: 0.5155 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.62395 mae: 0.03290
+Epoch 98/300
+19/19 - 41s - loss: 0.0417 - energy_within_threshold: 0.5253 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.56998 mae: 0.03573
+Epoch 99/300
+19/19 - 41s - loss: 0.0428 - energy_within_threshold: 0.5033 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.65936 mae: 0.03387
+Epoch 100/300
+19/19 - 41s - loss: 0.0522 - energy_within_threshold: 0.3899 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67454 mae: 0.03285
+Epoch 101/300
+19/19 - 41s - loss: 0.0378 - energy_within_threshold: 0.6282 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67791 mae: 0.03134
+Epoch 102/300
+19/19 - 41s - loss: 0.0377 - energy_within_threshold: 0.6409 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03129
+Epoch 103/300
+19/19 - 41s - loss: 0.0375 - energy_within_threshold: 0.6449 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67116 mae: 0.03098
+Epoch 104/300
+19/19 - 40s - loss: 0.0367 - energy_within_threshold: 0.6508 - lr: 1.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68128 mae: 0.03145
+Epoch 105/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6432 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03063
+Epoch 106/300
+19/19 - 40s - loss: 0.0370 - energy_within_threshold: 0.6503 - lr: 1.0000e-04 - 40s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03040
+Epoch 107/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6530 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03040
+Epoch 108/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6461 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03071
+Epoch 109/300
+19/19 - 41s - loss: 0.0373 - energy_within_threshold: 0.6481 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68297 mae: 0.03068
+Epoch 110/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6525 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03046
+Epoch 111/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6504 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03058
+Epoch 112/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6481 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68128 mae: 0.03072
+Epoch 113/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6551 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03106
+Epoch 114/300
+19/19 - 41s - loss: 0.0368 - energy_within_threshold: 0.6490 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68128 mae: 0.03055
+Epoch 115/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6524 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67454 mae: 0.03122
+Epoch 116/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6503 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68297 mae: 0.03077
+Epoch 117/300
+19/19 - 41s - loss: 0.0368 - energy_within_threshold: 0.6511 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03061
+Epoch 118/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6500 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03108
+Epoch 119/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6577 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67622 mae: 0.03130
+Epoch 120/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6500 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67960 mae: 0.03037
+Epoch 121/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6496 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03111
+Epoch 122/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6486 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03040
+Epoch 123/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6525 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03096
+Epoch 124/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6469 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68128 mae: 0.03114
+Epoch 125/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6492 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68128 mae: 0.03076
+Epoch 126/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6530 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03054
+Epoch 127/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6527 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03077
+Epoch 128/300
+19/19 - 41s - loss: 0.0366 - energy_within_threshold: 0.6547 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03050
+Epoch 129/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6513 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03101
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.69309 -> 0.69646
+Epoch 130/300
+19/19 - 41s - loss: 0.0366 - energy_within_threshold: 0.6516 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68803 mae: 0.03118
+Epoch 131/300
+19/19 - 41s - loss: 0.0372 - energy_within_threshold: 0.6572 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68803 mae: 0.03080
+Epoch 132/300
+19/19 - 41s - loss: 0.0370 - energy_within_threshold: 0.6527 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67116 mae: 0.03071
+Epoch 133/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6556 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68803 mae: 0.03072
+Epoch 134/300
+19/19 - 41s - loss: 0.0366 - energy_within_threshold: 0.6529 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03126
+Epoch 135/300
+19/19 - 41s - loss: 0.0370 - energy_within_threshold: 0.6413 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03055
+Epoch 136/300
+19/19 - 41s - loss: 0.0373 - energy_within_threshold: 0.6529 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68297 mae: 0.03052
+Epoch 137/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6545 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03046
+Epoch 138/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6546 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67791 mae: 0.03065
+Epoch 139/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6546 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03052
+Epoch 140/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6471 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68297 mae: 0.03056
+Epoch 141/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6550 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03038
+Epoch 142/300
+19/19 - 41s - loss: 0.0370 - energy_within_threshold: 0.6531 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.66948 mae: 0.03118
+Epoch 143/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6535 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03042
+Epoch 144/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6478 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03213
+Epoch 145/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6538 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03033
+Epoch 146/300
+19/19 - 41s - loss: 0.0373 - energy_within_threshold: 0.6476 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03107
+Epoch 147/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6551 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68297 mae: 0.03046
+Epoch 148/300
+19/19 - 41s - loss: 0.0370 - energy_within_threshold: 0.6533 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68297 mae: 0.03070
+Epoch 149/300
+19/19 - 41s - loss: 0.0366 - energy_within_threshold: 0.6546 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68803 mae: 0.03098
+Epoch 150/300
+19/19 - 41s - loss: 0.0373 - energy_within_threshold: 0.6492 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03049
+Epoch 151/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6535 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03026
+Epoch 152/300
+19/19 - 41s - loss: 0.0371 - energy_within_threshold: 0.6565 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68297 mae: 0.03088
+Epoch 153/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6511 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67960 mae: 0.03052
+Epoch 154/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6503 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03066
+Epoch 155/300
+19/19 - 41s - loss: 0.0370 - energy_within_threshold: 0.6478 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03044
+Epoch 156/300
+19/19 - 41s - loss: 0.0366 - energy_within_threshold: 0.6508 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70152 mae: 0.03146
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.69646 -> 0.70152
+Epoch 157/300
+19/19 - 41s - loss: 0.0373 - energy_within_threshold: 0.6540 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03082
+Epoch 158/300
+19/19 - 41s - loss: 0.0370 - energy_within_threshold: 0.6512 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03249
+Epoch 159/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6531 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67116 mae: 0.03193
+Epoch 160/300
+19/19 - 41s - loss: 0.0376 - energy_within_threshold: 0.6583 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67622 mae: 0.03061
+Epoch 161/300
+19/19 - 41s - loss: 0.0371 - energy_within_threshold: 0.6556 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03126
+Epoch 162/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6486 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67960 mae: 0.03039
+Epoch 163/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6550 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68803 mae: 0.03049
+Epoch 164/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6520 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03024
+Epoch 165/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6528 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03056
+Epoch 166/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6577 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03216
+Epoch 167/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6499 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68128 mae: 0.03049
+Epoch 168/300
+19/19 - 41s - loss: 0.0375 - energy_within_threshold: 0.6495 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03029
+Epoch 169/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6505 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03045
+Epoch 170/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6585 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03065
+Epoch 171/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6515 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68803 mae: 0.03132
+Epoch 172/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6552 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67622 mae: 0.03071
+Epoch 173/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6486 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03045
+Epoch 174/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6516 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69983 mae: 0.03089
+Epoch 175/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6502 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03099
+Epoch 176/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6540 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67454 mae: 0.03038
+Epoch 177/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6589 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03034
+Epoch 178/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6457 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67960 mae: 0.03176
+Epoch 179/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6526 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03069
+Epoch 180/300
+19/19 - 41s - loss: 0.0371 - energy_within_threshold: 0.6512 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03077
+Epoch 181/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6542 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67791 mae: 0.03081
+Epoch 182/300
+19/19 - 41s - loss: 0.0378 - energy_within_threshold: 0.6526 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03097
+Epoch 183/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6580 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67454 mae: 0.03052
+Epoch 184/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6530 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03056
+Epoch 185/300
+19/19 - 41s - loss: 0.0372 - energy_within_threshold: 0.6443 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68128 mae: 0.03079
+Epoch 186/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6587 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67960 mae: 0.03138
+Epoch 187/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6547 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68128 mae: 0.03044
+Epoch 188/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6513 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03050
+Epoch 189/300
+19/19 - 41s - loss: 0.0370 - energy_within_threshold: 0.6488 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68803 mae: 0.03027
+Epoch 190/300
+19/19 - 41s - loss: 0.0366 - energy_within_threshold: 0.6549 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.71164 mae: 0.03074
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.70152 -> 0.71164
+Epoch 191/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6550 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70320 mae: 0.03073
+Epoch 192/300
+19/19 - 41s - loss: 0.0375 - energy_within_threshold: 0.6684 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.67116 mae: 0.03197
+Epoch 193/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6510 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68465 mae: 0.03197
+Epoch 194/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6519 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68128 mae: 0.03209
+Epoch 195/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6519 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69983 mae: 0.03045
+Epoch 196/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6562 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03099
+Epoch 197/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6675 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03056
+Epoch 198/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6589 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03047
+Epoch 199/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6590 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03076
+Epoch 200/300
+19/19 - 41s - loss: 0.0370 - energy_within_threshold: 0.6533 - lr: 1.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03021
+Epoch 201/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6568 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03027
+Epoch 202/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6570 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69815 mae: 0.03024
+Epoch 203/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6597 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69983 mae: 0.03099
+Epoch 204/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6606 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70152 mae: 0.03029
+Epoch 205/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6634 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69815 mae: 0.03016
+Epoch 206/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6572 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03049
+Epoch 207/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6597 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70152 mae: 0.03016
+Epoch 208/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6603 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03046
+Epoch 209/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6616 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70320 mae: 0.03025
+Epoch 210/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6590 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70320 mae: 0.03022
+Epoch 211/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6636 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03094
+Epoch 212/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6624 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03053
+Epoch 213/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6619 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03022
+Epoch 214/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6637 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68297 mae: 0.03047
+Epoch 215/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6704 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69983 mae: 0.03015
+Epoch 216/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6645 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70152 mae: 0.03057
+Epoch 217/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6638 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69983 mae: 0.03016
+Epoch 218/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6706 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69815 mae: 0.03007
+Epoch 219/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6712 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03010
+Epoch 220/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6699 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03020
+Epoch 221/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6756 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69983 mae: 0.03049
+Epoch 222/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6630 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69983 mae: 0.03043
+Epoch 223/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6648 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70320 mae: 0.03044
+Epoch 224/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6657 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69983 mae: 0.03016
+Epoch 225/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6661 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69815 mae: 0.03011
+Epoch 226/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6723 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69815 mae: 0.03064
+Epoch 227/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6701 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69815 mae: 0.03031
+Epoch 228/300
+19/19 - 41s - loss: 0.0367 - energy_within_threshold: 0.6673 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03078
+Epoch 229/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6671 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03107
+Epoch 230/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6711 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03101
+Epoch 231/300
+19/19 - 41s - loss: 0.0366 - energy_within_threshold: 0.6657 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03077
+Epoch 232/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6664 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03124
+Epoch 233/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6654 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03021
+Epoch 234/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6610 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03063
+Epoch 235/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6714 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03020
+Epoch 236/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6717 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03011
+Epoch 237/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6662 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03007
+Epoch 238/300
+19/19 - 41s - loss: 0.0356 - energy_within_threshold: 0.6697 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03010
+Epoch 239/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6667 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03017
+Epoch 240/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6693 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68803 mae: 0.03024
+Epoch 241/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6711 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03013
+Epoch 242/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6645 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70320 mae: 0.03087
+Epoch 243/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6634 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03025
+Epoch 244/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6715 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03041
+Epoch 245/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6665 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03052
+Epoch 246/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6699 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69815 mae: 0.03008
+Epoch 247/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6663 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03005
+Epoch 248/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6674 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70658 mae: 0.03015
+Epoch 249/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6658 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69815 mae: 0.03040
+Epoch 250/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6732 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03062
+Epoch 251/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6649 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68803 mae: 0.03013
+Epoch 252/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6690 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03079
+Epoch 253/300
+19/19 - 41s - loss: 0.0356 - energy_within_threshold: 0.6686 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03007
+Epoch 254/300
+19/19 - 41s - loss: 0.0356 - energy_within_threshold: 0.6718 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03041
+Epoch 255/300
+19/19 - 41s - loss: 0.0373 - energy_within_threshold: 0.6664 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03091
+Epoch 256/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6648 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03007
+Epoch 257/300
+19/19 - 41s - loss: 0.0368 - energy_within_threshold: 0.6678 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03006
+Epoch 258/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6700 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03015
+Epoch 259/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6688 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03045
+Epoch 260/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6676 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03031
+Epoch 261/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6687 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03039
+Epoch 262/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6674 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70320 mae: 0.03004
+Epoch 263/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6738 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.02995
+Epoch 264/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6664 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68634 mae: 0.03006
+Epoch 265/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6703 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03025
+Epoch 266/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6632 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03050
+Epoch 267/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6676 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.02998
+Epoch 268/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6685 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03042
+Epoch 269/300
+19/19 - 41s - loss: 0.0357 - energy_within_threshold: 0.6637 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03002
+Epoch 270/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6668 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03001
+Epoch 271/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6674 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03015
+Epoch 272/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6649 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03036
+Epoch 273/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6727 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.70320 mae: 0.03028
+Epoch 274/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6674 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68803 mae: 0.03044
+Epoch 275/300
+19/19 - 41s - loss: 0.0356 - energy_within_threshold: 0.6697 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03033
+Epoch 276/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6681 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03025
+Epoch 277/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6650 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69815 mae: 0.03017
+Epoch 278/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6688 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03061
+Epoch 279/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6646 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03035
+Epoch 280/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6692 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03003
+Epoch 281/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6701 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03026
+Epoch 282/300
+19/19 - 41s - loss: 0.0358 - energy_within_threshold: 0.6722 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03013
+Epoch 283/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6671 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03063
+Epoch 284/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6689 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03018
+Epoch 285/300
+19/19 - 41s - loss: 0.0369 - energy_within_threshold: 0.6576 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69140 mae: 0.03005
+Epoch 286/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6699 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03064
+Epoch 287/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6614 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03061
+Epoch 288/300
+19/19 - 41s - loss: 0.0365 - energy_within_threshold: 0.6717 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03038
+Epoch 289/300
+19/19 - 41s - loss: 0.0360 - energy_within_threshold: 0.6692 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69983 mae: 0.03019
+Epoch 290/300
+19/19 - 41s - loss: 0.0355 - energy_within_threshold: 0.6683 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.03018
+Epoch 291/300
+19/19 - 41s - loss: 0.0359 - energy_within_threshold: 0.6697 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68971 mae: 0.03007
+Epoch 292/300
+19/19 - 41s - loss: 0.0364 - energy_within_threshold: 0.6711 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03011
+Epoch 293/300
+19/19 - 41s - loss: 0.0356 - energy_within_threshold: 0.6618 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69309 mae: 0.03017
+Epoch 294/300
+19/19 - 41s - loss: 0.0354 - energy_within_threshold: 0.6744 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69815 mae: 0.03004
+Epoch 295/300
+19/19 - 41s - loss: 0.0362 - energy_within_threshold: 0.6755 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03024
+Epoch 296/300
+19/19 - 41s - loss: 0.0368 - energy_within_threshold: 0.6727 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.03056
+Epoch 297/300
+19/19 - 41s - loss: 0.0356 - energy_within_threshold: 0.6663 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.68128 mae: 0.03029
+Epoch 298/300
+19/19 - 41s - loss: 0.0361 - energy_within_threshold: 0.6702 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69477 mae: 0.02996
+Epoch 299/300
+19/19 - 41s - loss: 0.0363 - energy_within_threshold: 0.6599 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.69646 mae: 0.02999
+Epoch 300/300
+19/19 - 41s - loss: 0.0356 - energy_within_threshold: 0.6673 - lr: 5.0000e-05 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.00843 mae: 0.43825
+INFO:megnet_models.callbacks:best energy_within_threshold: -inf -> 0.00843
+Epoch 1/300
+19/19 - 54s - loss: 0.4581 - energy_within_threshold: 0.0362 - lr: 5.0000e-04 - 54s/epoch - 3s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.05059 mae: 0.40328
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.00843 -> 0.05059
+Epoch 2/300
+19/19 - 41s - loss: 0.4449 - energy_within_threshold: 0.0210 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.00000 mae: 0.44311
+Epoch 3/300
+19/19 - 41s - loss: 0.4406 - energy_within_threshold: 0.0304 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.00675 mae: 0.40072
+Epoch 4/300
+19/19 - 41s - loss: 0.4391 - energy_within_threshold: 0.0144 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.06239 mae: 0.19398
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.05059 -> 0.06239
+Epoch 5/300
+19/19 - 41s - loss: 0.3167 - energy_within_threshold: 0.0530 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.19393 mae: 0.14298
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.06239 -> 0.19393
+Epoch 6/300
+19/19 - 41s - loss: 0.1575 - energy_within_threshold: 0.1547 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.11973 mae: 0.15123
+Epoch 7/300
+19/19 - 41s - loss: 0.1444 - energy_within_threshold: 0.2013 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.40472 mae: 0.12422
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.19393 -> 0.40472
+Epoch 8/300
+19/19 - 41s - loss: 0.1303 - energy_within_threshold: 0.2496 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.35413 mae: 0.12212
+Epoch 9/300
+19/19 - 41s - loss: 0.1256 - energy_within_threshold: 0.3024 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.15852 mae: 0.12571
+Epoch 10/300
+19/19 - 41s - loss: 0.1234 - energy_within_threshold: 0.3208 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.34401 mae: 0.11948
+Epoch 11/300
+19/19 - 41s - loss: 0.1254 - energy_within_threshold: 0.2852 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16863 mae: 0.12503
+Epoch 12/300
+19/19 - 41s - loss: 0.1229 - energy_within_threshold: 0.3252 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.39966 mae: 0.12200
+Epoch 13/300
+19/19 - 41s - loss: 0.1251 - energy_within_threshold: 0.2925 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.43002 mae: 0.11939
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.40472 -> 0.43002
+Epoch 14/300
+19/19 - 41s - loss: 0.1232 - energy_within_threshold: 0.3592 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.28668 mae: 0.12442
+Epoch 15/300
+19/19 - 41s - loss: 0.1285 - energy_within_threshold: 0.3263 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.19224 mae: 0.13123
+Epoch 16/300
+19/19 - 41s - loss: 0.1287 - energy_within_threshold: 0.2393 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.39292 mae: 0.12087
+Epoch 17/300
+19/19 - 41s - loss: 0.1265 - energy_within_threshold: 0.2694 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.37437 mae: 0.12107
+Epoch 18/300
+19/19 - 41s - loss: 0.1280 - energy_within_threshold: 0.2660 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.37774 mae: 0.12102
+Epoch 19/300
+19/19 - 41s - loss: 0.1279 - energy_within_threshold: 0.3133 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.36594 mae: 0.11873
+Epoch 20/300
+19/19 - 41s - loss: 0.1226 - energy_within_threshold: 0.3890 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.19562 mae: 0.14336
+Epoch 21/300
+19/19 - 41s - loss: 0.1241 - energy_within_threshold: 0.3223 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16526 mae: 0.13607
+Epoch 22/300
+19/19 - 41s - loss: 0.1318 - energy_within_threshold: 0.2296 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.42159 mae: 0.12191
+Epoch 23/300
+19/19 - 41s - loss: 0.1291 - energy_within_threshold: 0.2674 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.38449 mae: 0.12178
+Epoch 24/300
+19/19 - 41s - loss: 0.1247 - energy_within_threshold: 0.3780 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.15514 mae: 0.12734
+Epoch 25/300
+19/19 - 41s - loss: 0.1247 - energy_within_threshold: 0.3044 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.36256 mae: 0.12210
+Epoch 26/300
+19/19 - 41s - loss: 0.1267 - energy_within_threshold: 0.2843 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.42833 mae: 0.11992
+Epoch 27/300
+19/19 - 41s - loss: 0.1237 - energy_within_threshold: 0.3115 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.32715 mae: 0.12410
+Epoch 28/300
+19/19 - 41s - loss: 0.1224 - energy_within_threshold: 0.3994 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.24621 mae: 0.12881
+Epoch 29/300
+19/19 - 41s - loss: 0.1238 - energy_within_threshold: 0.3408 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.42159 mae: 0.12207
+Epoch 30/300
+19/19 - 41s - loss: 0.1267 - energy_within_threshold: 0.2634 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17875 mae: 0.12564
+Epoch 31/300
+19/19 - 41s - loss: 0.1235 - energy_within_threshold: 0.3447 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.43845 mae: 0.11736
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.43002 -> 0.43845
+Epoch 32/300
+19/19 - 41s - loss: 0.1242 - energy_within_threshold: 0.3483 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.27993 mae: 0.12278
+Epoch 33/300
+19/19 - 41s - loss: 0.1224 - energy_within_threshold: 0.3388 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.49241 mae: 0.11690
+INFO:megnet_models.callbacks:best energy_within_threshold: 0.43845 -> 0.49241
+Epoch 34/300
+19/19 - 41s - loss: 0.1236 - energy_within_threshold: 0.3420 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.23946 mae: 0.12645
+Epoch 35/300
+19/19 - 41s - loss: 0.1243 - energy_within_threshold: 0.3073 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.45700 mae: 0.11643
+Epoch 36/300
+19/19 - 41s - loss: 0.1219 - energy_within_threshold: 0.3988 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16695 mae: 0.13421
+Epoch 37/300
+19/19 - 41s - loss: 0.1274 - energy_within_threshold: 0.2920 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.41315 mae: 0.12176
+Epoch 38/300
+19/19 - 41s - loss: 0.1310 - energy_within_threshold: 0.2312 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.33895 mae: 0.11982
+Epoch 39/300
+19/19 - 41s - loss: 0.1246 - energy_within_threshold: 0.3245 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.24621 mae: 0.11593
+Epoch 40/300
+19/19 - 41s - loss: 0.1178 - energy_within_threshold: 0.3308 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18550 mae: 0.11328
+Epoch 41/300
+19/19 - 41s - loss: 0.1144 - energy_within_threshold: 0.2804 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.27825 mae: 0.10149
+Epoch 42/300
+19/19 - 41s - loss: 0.1104 - energy_within_threshold: 0.2949 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17369 mae: 0.10326
+Epoch 43/300
+19/19 - 41s - loss: 0.1050 - energy_within_threshold: 0.2942 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.38617 mae: 0.12018
+Epoch 44/300
+19/19 - 41s - loss: 0.1175 - energy_within_threshold: 0.3088 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.27656 mae: 0.12621
+Epoch 45/300
+19/19 - 41s - loss: 0.1248 - energy_within_threshold: 0.3442 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18381 mae: 0.13452
+Epoch 46/300
+19/19 - 41s - loss: 0.1241 - energy_within_threshold: 0.3264 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.22260 mae: 0.13320
+Epoch 47/300
+19/19 - 41s - loss: 0.1327 - energy_within_threshold: 0.2449 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18550 mae: 0.12524
+Epoch 48/300
+19/19 - 41s - loss: 0.1263 - energy_within_threshold: 0.3033 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.48735 mae: 0.11872
+Epoch 49/300
+19/19 - 41s - loss: 0.1259 - energy_within_threshold: 0.3420 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.33558 mae: 0.12132
+Epoch 50/300
+19/19 - 41s - loss: 0.1222 - energy_within_threshold: 0.3882 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16526 mae: 0.13699
+Epoch 51/300
+19/19 - 41s - loss: 0.1242 - energy_within_threshold: 0.3349 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25970 mae: 0.12447
+Epoch 52/300
+19/19 - 41s - loss: 0.1289 - energy_within_threshold: 0.2663 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.47892 mae: 0.11798
+Epoch 53/300
+19/19 - 41s - loss: 0.1212 - energy_within_threshold: 0.4136 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.41990 mae: 0.11721
+Epoch 54/300
+19/19 - 41s - loss: 0.1202 - energy_within_threshold: 0.4192 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20236 mae: 0.12038
+Epoch 55/300
+19/19 - 41s - loss: 0.1219 - energy_within_threshold: 0.3937 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25801 mae: 0.12284
+Epoch 56/300
+19/19 - 41s - loss: 0.1235 - energy_within_threshold: 0.3143 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.20405 mae: 0.12157
+Epoch 57/300
+19/19 - 41s - loss: 0.1207 - energy_within_threshold: 0.4080 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25464 mae: 0.11937
+Epoch 58/300
+19/19 - 41s - loss: 0.1216 - energy_within_threshold: 0.3536 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25632 mae: 0.11967
+Epoch 59/300
+19/19 - 41s - loss: 0.1195 - energy_within_threshold: 0.3638 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.18212 mae: 0.12744
+Epoch 60/300
+19/19 - 41s - loss: 0.1260 - energy_within_threshold: 0.2600 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.43339 mae: 0.11119
+Epoch 61/300
+19/19 - 41s - loss: 0.1192 - energy_within_threshold: 0.3755 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.27825 mae: 0.11350
+Epoch 62/300
+19/19 - 41s - loss: 0.1145 - energy_within_threshold: 0.2840 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.40809 mae: 0.11150
+Epoch 63/300
+19/19 - 41s - loss: 0.1131 - energy_within_threshold: 0.2966 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.35582 mae: 0.11312
+Epoch 64/300
+19/19 - 41s - loss: 0.1152 - energy_within_threshold: 0.2561 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17201 mae: 0.10577
+Epoch 65/300
+19/19 - 41s - loss: 0.1126 - energy_within_threshold: 0.2754 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.11973 mae: 0.11513
+Epoch 66/300
+19/19 - 41s - loss: 0.1086 - energy_within_threshold: 0.2746 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.17032 mae: 0.10415
+Epoch 67/300
+19/19 - 41s - loss: 0.1150 - energy_within_threshold: 0.2127 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.40304 mae: 0.10518
+Epoch 68/300
+19/19 - 41s - loss: 0.1120 - energy_within_threshold: 0.2872 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.14503 mae: 0.09591
+Epoch 69/300
+19/19 - 41s - loss: 0.1044 - energy_within_threshold: 0.2265 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.16526 mae: 0.09359
+Epoch 70/300
+19/19 - 41s - loss: 0.1039 - energy_within_threshold: 0.2383 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.25464 mae: 0.08819
+Epoch 71/300
+19/19 - 41s - loss: 0.1004 - energy_within_threshold: 0.2707 - lr: 5.0000e-04 - 41s/epoch - 2s/step
+INFO:megnet_models.callbacks:val energy_within_threshold: 0.32378 mae: 0.17982
+Epoch 72/300
+19/19 - 41s - loss: 0.1069 - energy_within_threshold: 0.2310 - lr: 5.0000e-04 - 41s/epoch - 2s/step
