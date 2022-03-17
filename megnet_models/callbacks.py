@@ -1,5 +1,6 @@
 """
 callbacks functions used in training process
+Modified by Hiroshi Yoshihara. (https://github.com/analokmaus)
 """
 import logging
 import os

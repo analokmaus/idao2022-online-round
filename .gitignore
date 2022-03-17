@@ -21,7 +21,6 @@ results/**/*.hdf5
 results/**/*.json
 results/*.csv
 requirements/
-track2/
 kaggle/
 logs/
 input/*

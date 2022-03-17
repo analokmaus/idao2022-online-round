@@ -1,5 +1,6 @@
 """
 Implements basic GraphModels.
+Modified by Hiroshi Yoshihara. (https://github.com/analokmaus)
 """
 
 import os
